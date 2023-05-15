@@ -7,10 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        'Poppins': ['Poppins', 'sans-serif'],
+        'IBMPlex': ['IBM Plex Sans', 'sans-serif'],
+        'Manrope': ['Manrope', 'sans-serif'],
+        'Roboto': ['Roboto', 'sans-serif'],
       },
     },
   },
