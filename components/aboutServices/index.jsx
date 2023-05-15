@@ -21,8 +21,8 @@ import Link from "next/link";
 function AboutServices() {
   const [readMore, setReadMore] = useState(false);
   return (
-    <main className="mt-32  px-4 xl:px-40 lg-px-24 mx-0  w-full flex flex-col justify-center">
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10">
+    <main className="mt-32 w-full flex flex-col justify-center">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10  px-4 xl:px-40 lg-px-24 mx-0  ">
         <div className="lg:w-2/4">
           <Image src={WellnessPic} alt="wellness and medical Health" />
         </div>
@@ -47,7 +47,7 @@ function AboutServices() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center py-4 md:py-32">
+      <div className="flex flex-col items-center py-4 md:py-32  px-4 xl:px-40 lg-px-24 mx-0  ">
         <div className="relative flex flex-col justify-center">
           <div class="hidden absolute top-4 left-6 lg:block flex-grow h-1 w-44 border-t-2 bg-[#49AD09]"></div>
           <h2 className="self-end text-[#49AD09] text-base font-IBMPlex font-bold py-2">
@@ -180,7 +180,7 @@ function AboutServices() {
 
                 
                 
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center  px-4 xl:px-40 lg-px-24 mx-0  ">
      <h2 className="text-[#1C1C1C] text-[2.5rem] font-medium font-IBMPlex pb-8">How we work</h2>
 
      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-32">
@@ -241,7 +241,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
     </div>
 
 
-    <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-52">
+    <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-52  px-4 xl:px-40 lg-px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
             <div className="">
@@ -302,7 +302,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
       </div>
 
 
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-52">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-52  px-4 xl:px-40 lg-px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
             <div className="">
@@ -359,6 +359,43 @@ hormonal imbalances.
         <div className="lg:w-2/4 self-end">
           <Image src={TherapyPic} alt="wellness and medical Health" />
         </div>
+      </div>
+
+
+      <div className="blueBg h-full w-full  px-4 xl:px-40 lg-px-24 mx-0  ">
+        <div className="flex flex-col justify-center items-center pt-16">
+            <h2 className="text-base font-IBMPlex text-[#FFFFFF] font-normal py-2">LOCATION</h2>
+            <h3 className="text-5xl font-IBMPlex text-[#FFFFFF] font-bold">Where we Operate</h3>
+            <p className="text-base font-Poppins text-[#FFFFFF] font-normal text-center py-4">Our Telehealth services are unavailable to client in the following state
+<br/>We are working to have our services available in all 50 states.</p>
+        </div>
+
+        <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pb-16 ">
+
+
+        <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
+          <div className="relative">
+            <div class="hidden absolute top-8 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
+            <h2 className="py-4 text-[#1C1C1C] lg:px-36  font-Poppins font-bold text-base">
+              <span className="text-[#49AD09]">About </span>MEDICHEALTH <br />&
+              WELLNESS
+            </h2>
+          </div>
+          <p className="text-[#545454] font-Poppins font-normal text-[1.625em]">
+            Lorem ipsum dolor sit amet consectetur. Integer adipiscing aliquam
+            tincidunt mi dignissim. Amet nunc parturient volutpat egestas amet
+            aliquam egestas in. Cras pharetra ac vitae malesuada faucibus. Felis
+            viverra non lectus et purus mollis amet quis. Duis tempor nullam
+            varius facilisi malesuada varius eu lorem suspendisse. Posuere nulla
+            sit scelerisque auctor nunc. Pretium vulputate vestibulum in
+            pharetra ipsum sagittis sit.
+          </p>
+        </div>
+
+        <div className="lg:w-2/4">
+          <Image src={Map} alt="a Picture of a map" />
+        </div>
+      </div>
       </div>
      
     </main>
