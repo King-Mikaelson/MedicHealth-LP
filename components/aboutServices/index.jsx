@@ -361,7 +361,7 @@ hormonal imbalances.
       </div>
 
 
-      <div className="blueBg h-full w-full  px-4 xl:px-40 lg-px-24 mx-0 my-10 ">
+      <div className="blueBg h-full w-full  px-4 xl:px-40 lg-px-24 mx-0 my-10 flex flex-col items-center justify-center ">
         <div className="flex flex-col justify-center items-center pt-16">
             <h2 className="text-base font-IBMPlex text-[#FFFFFF] font-normal py-2">LOCATION</h2>
             <h3 className="text-5xl font-IBMPlex text-[#FFFFFF] font-bold">Where we Operate</h3>
@@ -369,26 +369,62 @@ hormonal imbalances.
 <br/>We are working to have our services available in all 50 states.</p>
         </div>
 
-        <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pb-16 ">
+        <div className="flex flex-col lg:flex-row w-full justify-between items-center px-12 pb-16 mx-auto my-auto">
 
 
-        <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
-          <div className="relative">
-            <div class="hidden absolute top-8 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
-            <h2 className="py-4 text-[#1C1C1C] lg:px-36  font-Poppins font-bold text-base">
-              <span className="text-[#49AD09]">About </span>MEDICHEALTH <br />&
-              WELLNESS
-            </h2>
+        <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col text-[#FFFFFF] font-Poppins font-bold text-[2rem] mx-auto my-auto">
+
+          <div className="flex flex-col w-full ">
+          <div className="grid relative lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]   justify-center items-center">
+            <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] h-3 rounded-full w-3"></div>
+            <p>Arizona</p>
+            <p>Colorado </p>
           </div>
-          <p className="text-[#545454] font-Poppins font-normal text-[1.625em]">
-            Lorem ipsum dolor sit amet consectetur. Integer adipiscing aliquam
-            tincidunt mi dignissim. Amet nunc parturient volutpat egestas amet
-            aliquam egestas in. Cras pharetra ac vitae malesuada faucibus. Felis
-            viverra non lectus et purus mollis amet quis. Duis tempor nullam
-            varius facilisi malesuada varius eu lorem suspendisse. Posuere nulla
-            sit scelerisque auctor nunc. Pretium vulputate vestibulum in
-            pharetra ipsum sagittis sit.
-          </p>
+
+          <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]    justify-center  items-center relative">
+          <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] h-3 rounded-full w-3"></div>
+            <p>Hawaii</p>
+            <p>Idaho </p>
+          </div>
+
+
+          <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]   justify-center   items-center relative">
+          <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] h-3 rounded-full w-3"></div>
+            <p> Kansas</p>
+            <p>Michigan</p>
+          </div>
+
+
+          <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]    justify-center    items-center relative">
+          <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] h-3 rounded-full w-3"></div>
+            <p> Montana</p>
+            <p> Nebraska</p>
+          </div>
+
+
+
+          <div className="grid lg:grid-cols-[170px,1fr] grid-cols-2  justify-center    items-center relative">
+          <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] h-3 rounded-full w-3"></div>
+            <p> Oregun </p>
+            <p> New  Mexico</p>
+          </div>
+
+
+          <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]    justify-center   items-center relative">
+          <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] h-3 rounded-full w-3"></div>
+            <p>Utah</p>
+            <p> North Dokota</p>
+          </div>
+
+
+          <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]  justify-center   items-center relative">
+          <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] h-3 rounded-full w-3"></div>
+            <p>Wyoming</p>
+            <p>Washington</p>
+          </div>
+
+          </div>
+
         </div>
 
         <div className="lg:w-2/4">
