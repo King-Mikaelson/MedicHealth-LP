@@ -12,6 +12,7 @@ module.exports = {
         'IBMPlex': ['IBM Plex Sans', 'sans-serif'],
         'Manrope': ['Manrope', 'sans-serif'],
         'Roboto': ['Roboto', 'sans-serif'],
+        'Inter': ['Inter', 'sans-serif'],
       },
     },
   },

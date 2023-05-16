@@ -10,7 +10,6 @@ import InjectionPic from "../../public/InjectionPic.png";
 import TherapyPic from "../../public/TherapyPic.png";
 import HeartBeatPic from "../../public/HeartBeatPic.png";
 import WeightLossPic from "../../public/WeightLossPic.png";
-import doctorImage from "../../public/doctorImage.png";
 import PersonPic from "../../public/PersonPic.png";
 import Map from "../../public/Map.png";
 import { useState } from "react";
@@ -21,7 +20,7 @@ import Link from "next/link";
 function AboutServices() {
   const [readMore, setReadMore] = useState(false);
   return (
-    <main className="mt-32 w-full flex flex-col justify-center">
+    <main className="mt-28 w-full flex flex-col justify-center">
       <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10  px-4 xl:px-40 lg-px-24 mx-0  ">
         <div className="lg:w-2/4">
           <Image src={WellnessPic} alt="wellness and medical Health" />
@@ -47,7 +46,7 @@ function AboutServices() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center py-4 md:py-32  px-4 xl:px-40 lg-px-24 mx-0  ">
+      <div className="flex flex-col items-center py-4 md:pt-24 md:pb-16  px-4 xl:px-40 lg-px-24 mx-0  ">
         <div className="relative flex flex-col justify-center">
           <div class="hidden absolute top-4 left-6 lg:block flex-grow h-1 w-44 border-t-2 bg-[#49AD09]"></div>
           <h2 className="self-end text-[#49AD09] text-base font-IBMPlex font-bold py-2">
@@ -241,7 +240,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
     </div>
 
 
-    <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-52  px-4 xl:px-40 lg-px-24 mx-0  ">
+    <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-36  px-4 xl:px-40 lg-px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
             <div className="">
@@ -302,7 +301,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
       </div>
 
 
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-52  px-4 xl:px-40 lg-px-24 mx-0  ">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-36  px-4 xl:px-40 lg-px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
             <div className="">
@@ -362,7 +361,7 @@ hormonal imbalances.
       </div>
 
 
-      <div className="blueBg h-full w-full  px-4 xl:px-40 lg-px-24 mx-0  ">
+      <div className="blueBg h-full w-full  px-4 xl:px-40 lg-px-24 mx-0 my-10 ">
         <div className="flex flex-col justify-center items-center pt-16">
             <h2 className="text-base font-IBMPlex text-[#FFFFFF] font-normal py-2">LOCATION</h2>
             <h3 className="text-5xl font-IBMPlex text-[#FFFFFF] font-bold">Where we Operate</h3>
