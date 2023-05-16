@@ -123,7 +123,7 @@ function TestimonialsFaq() {
         </div>
 
 
-      <div className="flex flex-col justify-center ">
+      <div className="flex flex-col justify-center lg:pt-16">
         <div className="flex flex-col justify-center items-center w-full">
           <div class="relative flex py-5 items-center justify-center lg:w-1/4 w-full my-0 mx-auto">
             <div class="flex-grow border-t-2 border-[#49AD09]"></div>
