@@ -17,16 +17,16 @@ function Footer() {
        </p>
        <div className="flex py-4">
         <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
-        <FaFacebookF  className="inline-block text-[#FFFFFF]" />
+        <FaFacebookF  className="inline-block text-[#FFFFFF] cursor-pointer" />
         </div>
         <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
-        <FaInstagram  className="inline-block text-[#FFFFFF]"/>
+        <FaInstagram  className="inline-block text-[#FFFFFF] cursor-pointer"/>
         </div>
         <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
-        <FaTwitter  className="inline-block text-[#FFFFFF]" />
+        <FaTwitter  className="inline-block text-[#FFFFFF] cursor-pointer" />
         </div>
         <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
-        <FaLinkedinIn  className="inline-block text-[#FFFFFF]" />
+        <FaLinkedinIn  className="inline-block text-[#FFFFFF] cursor-pointer" />
         </div>
        </div>
         </div>

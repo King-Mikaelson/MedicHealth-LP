@@ -19,6 +19,9 @@ import Link from "next/link";
 
 function AboutServices() {
   const [readMore, setReadMore] = useState(false);
+    const [readMore2,setReadMore2]=useState(false);
+    const [readMore3,setReadMore3]=useState(false);
+    const [readMore4,setReadMore4]=useState(false);
   return (
     <main className="mt-28 w-full flex flex-col justify-center">
       <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10  px-4 lg:px-24 mx-0  ">
@@ -72,7 +75,7 @@ function AboutServices() {
                   <AiFillPlusCircle
                     onClick={() => setReadMore(!readMore)}
                     size={20}
-                    className="text-[#191BFB]"
+                    className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
               ) : (
@@ -81,7 +84,7 @@ function AboutServices() {
                   <AiFillMinusCircle
                     onClick={() => setReadMore(!readMore)}
                     size={20}
-                    className="text-[#C9C9C9]"
+                    className="text-[#C9C9C9] cursor-pointer"
                   />
                 </div>
               )}
@@ -95,22 +98,22 @@ function AboutServices() {
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">Hormone  <br/> Replacement</h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">Lorem ipsum dolor sit amet consectetur. Eget proin velit.</p>
 
-              {readMore ? (
+              {readMore2 ? (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">Read More</p>
                   <AiFillPlusCircle
-                    onClick={() => setReadMore(!readMore)}
+                    onClick={() => setReadMore2(!readMore2)}
                     size={20}
-                    className="text-[#191BFB]"
+                    className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
               ) : (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">Read Less</p>
                   <AiFillMinusCircle
-                    onClick={() => setReadMore(!readMore)}
+                    onClick={() => setReadMore2(!readMore2)}
                     size={20}
-                    className="text-[#C9C9C9]"
+                    className="text-[#C9C9C9] cursor-pointer"
                   />
                 </div>
               )}
@@ -124,22 +127,22 @@ function AboutServices() {
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">Expert <br/>Practitioners</h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">Lorem ipsum dolor sit amet consectetur. Eget proin velit.</p>
 
-              {readMore ? (
+              {readMore3 ? (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">Read More</p>
                   <AiFillPlusCircle
-                    onClick={() => setReadMore(!readMore)}
+                    onClick={() => setReadMore3(!readMore3)}
                     size={20}
-                    className="text-[#191BFB]"
+                    className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
               ) : (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">Read Less</p>
                   <AiFillMinusCircle
-                    onClick={() => setReadMore(!readMore)}
+                    onClick={() => setReadMore3(!readMore3)}
                     size={20}
-                    className="text-[#C9C9C9]"
+                    className="text-[#C9C9C9] cursor-pointer"
                   />
                 </div>
               )}
@@ -153,22 +156,22 @@ function AboutServices() {
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">Tele <br/>Health </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">Lorem ipsum dolor sit amet consectetur. Eget proin velit.</p>
 
-              {readMore ? (
+              {readMore4 ? (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">Read More</p>
                   <AiFillPlusCircle
-                    onClick={() => setReadMore(!readMore)}
+                    onClick={() => setReadMore4(!readMore4)}
                     size={20}
-                    className="text-[#191BFB]"
+                    className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
               ) : (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">Read Less</p>
                   <AiFillMinusCircle
-                    onClick={() => setReadMore(!readMore)}
+                    onClick={() => setReadMore4(!readMore4)}
                     size={20}
-                    className="text-[#C9C9C9]"
+                    className="text-[#C9C9C9] cursor-pointer"
                   />
                 </div>
               )}
