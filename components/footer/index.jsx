@@ -39,14 +39,14 @@ function Footer() {
           <p className="text-lg font-light font-Poppins">Portal</p>
         </div>
 
-        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start md:order-3 order-2">
+        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start md:order-2 order-2">
         <h3 className="text-[1.27rem] font-bold font-Poppins">Legal</h3>
           <p  className="text-lg font-light font-Poppins">Terms & Conditions</p>
           <p  className="text-lg font-light font-Poppins">Privacy Policy</p>
           <p  className="text-lg font-light font-Poppins">Cookies Policy</p>
         </div>
 
-        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start md:order-2 order-1">
+        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start md:order-3 order-1">
         <h3 className="text-[1.27rem] font-bold font-Poppins">Contact Information</h3>
           <div className="flex items-center">
             <AiOutlineMail  className="text-[#49AD09] mr-5" />
