@@ -6,7 +6,7 @@ import {FaFacebookF, FaTwitter, FaInstagram,FaLinkedinIn} from "react-icons/fa";
 
 function Footer() {
   return (
-    <main className="mt-10 mb-auto text-[#FFFFFF] bg-[#202020] pt-10 lg:pt-20 xl:px-40 lg:px-24 px-4 mx-0 w-full self-end">
+    <main className="mt-10 mb-auto text-[#FFFFFF] bg-[#202020] pt-10 lg:pt-20  lg:px-24 px-4 mx-0 w-full self-end">
     
 
       <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-5 lg:gap-0">
@@ -16,20 +16,18 @@ function Footer() {
        Lorem ipsum dolor sit amet consectetur. Scelerisque vitae et vitae suspendisse vulputate vestibulum tortor nisl cursus. Egestas nulla in 
        </p>
        <div className="flex py-4">
-        <div className="bg-[#49AD09] py-2 px-2 rounded-full mr-4">
-        <FaFacebookF size={30} />
+        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        <FaFacebookF  className="inline-block text-[#FFFFFF]" />
         </div>
-        <div className="bg-[#49AD09] py-2 px-2 rounded-full mr-4">
-        <FaInstagram size={30} />
+        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        <FaInstagram  className="inline-block text-[#FFFFFF]"/>
         </div>
-        <div className="bg-[#49AD09] py-2 px-2 rounded-full mr-4">
-        <FaTwitter size={30} />
+        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        <FaTwitter  className="inline-block text-[#FFFFFF]" />
         </div>
-        <div className="bg-[#49AD09] py-2 px-2 rounded-full mr-4">
-        <FaLinkedinIn size={30} />
+        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        <FaLinkedinIn  className="inline-block text-[#FFFFFF]" />
         </div>
-
-
        </div>
         </div>
         
@@ -51,27 +49,27 @@ function Footer() {
         <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start md:order-2 order-1">
         <h3 className="text-[1.27rem] font-bold font-Poppins">Contact Information</h3>
           <div className="flex items-center">
-            <AiOutlineMail  className="text-[#49AD09] mr-5" size={20} />
+            <AiOutlineMail  className="text-[#49AD09] mr-5" />
             <p  className="text-lg font-light font-Poppins">Mdichealthr@gmail.com</p>
 
          </div>
          <div className="flex items-center">
-            <FiPhone  className="text-[#49AD09] mr-5" size={20} />
+            <FiPhone  className="text-[#49AD09] mr-5"  />
             <p className="font-Poppins font-light text-lg">+2345545677080</p>
 
          </div>
          <div className="flex items-center">
-         <FiMapPin className="text-[#49AD09] mr-5" size={20} />
+         <FiMapPin className="text-[#49AD09] mr-5"  />
         <p  className="font-Poppins font-light text-lg">Lorem Ipsum Dummy text</p>
          </div>
         </div>
         
       </div>
 
-    <div className="flex flex-col justify-center items-center relative my-0 mx-auto py-16">
-    <div class="w-full flex justify-center items-center border-b border-[#49AD09]"></div>
-    <p className="text-base font-Poppins font-light lg:text-center py-4">2023ⓒMedic Health & Wellness . All rights reserved.</p>
-    </div>
+      <div className="flex flex-col justify-center items-center relative my-0 mx-auto lg:pt-16 pt-8 lg:pb-6 pb-3 ">
+        <div className="bg-[#49AD09] h-[0.1rem] inline-block w-3/4"></div>
+      </div>
+      <p className="text-base font-Poppins font-light text-center pb-6">2023ⓒMedic Health & Wellness . All rights reserved.</p>
 
 
     </main>
@@ -79,3 +77,7 @@ function Footer() {
 }
 
 export default Footer;
+
+
+
+

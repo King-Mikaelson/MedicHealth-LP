@@ -92,7 +92,7 @@ function TestimonialsFaq() {
           },
       ];
   return (
-    <main className="lg:mt-32 mt-12  px-4 xl:px-40 lg:px-24 mx-0  w-full flex flex-col justify-center">
+    <main className="lg:mt-32 mt-12  px-4  lg:px-24 mx-0  w-full flex flex-col justify-center">
         <div className="flex flex-col justify-center items-center lg:py-8 py-0">
         <div className="flex flex-col justify-center">
            <h2 className='font-Poppins text-base text-[#49AD09] uppercase [letter-spacing:0.6em]'>Testimonials</h2> 

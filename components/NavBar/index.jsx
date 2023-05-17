@@ -26,7 +26,7 @@ function NavBar() {
       const[open, setOpen] = useState(false)
   return (
   <nav className='shadow-md w-full fixed top-0 left-0 z-10'>
-    <div className='md:flex flex items-center  justify-between  bg-white py-4 px-4 xl:px-40 lg:px-24 w-full  relative'>
+    <div className='md:flex flex items-center  justify-between  bg-white py-4 px-4  lg:px-24 w-full  relative'>
     <Bars3Icon onClick={() => setOpen(prevValue => !prevValue)} className="md:hidden block h-6 w-6" aria-hidden="true" />
     <div  className='cursor-pointer flex justify-between items-center px-2'>
     <Image src={Logo} alt="logo" className='

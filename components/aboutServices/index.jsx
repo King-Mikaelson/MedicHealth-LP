@@ -21,7 +21,7 @@ function AboutServices() {
   const [readMore, setReadMore] = useState(false);
   return (
     <main className="mt-28 w-full flex flex-col justify-center">
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10  px-4 xl:px-40 lg-px-24 mx-0  ">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10  px-4 lg:px-24 mx-0  ">
         <div className="lg:w-2/4">
           <Image src={WellnessPic} alt="wellness and medical Health" />
         </div>
@@ -46,7 +46,7 @@ function AboutServices() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center lg:py-16 pt-16 pb-0   px-4 xl:px-40 lg-px-24 mx-0  ">
+      <div className="flex flex-col items-center lg:py-16 pt-16 pb-0   px-4 lg:px-24 mx-0  ">
         <div className="relative flex flex-col justify-center">
           <div class="hidden absolute top-4 left-6 lg:block flex-grow h-1 w-44 border-t-2 bg-[#49AD09]"></div>
           <h2 className="self-end text-[#49AD09] text-base font-IBMPlex font-bold py-2">
@@ -179,7 +179,7 @@ function AboutServices() {
 
                 
                 
-    <div className="flex flex-col justify-center items-center  px-4 xl:px-40 lg-px-24 mx-0  ">
+    <div className="flex flex-col justify-center items-center  px-4 lg:px-24  mx-0  ">
      <h2 className="text-[#1C1C1C] lg:text-[2.5rem] text-[1.5rem] font-medium font-IBMPlex pb-8">How we work</h2>
 
      <div className="flex flex-col lg:flex-row w-full justify-between items-center lg:gap-32 gap-6">
@@ -240,7 +240,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
     </div>
 
 
-    <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4 xl:px-40 lg-px-24 mx-0  ">
+    <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4  lg:px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex lg:items-start flex-col order-2 lg:order-1">
             <div className="">
@@ -249,7 +249,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
             </div>
 
             <div>
-            <p className="text-[#545454] font-Poppins font-normal lg:text-[1.625em] text-[1rem] pt-2">
+            <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
             Lorem ipsum dolor sit amet consectetur. Praesent
             et aliquet magna pellentesque eget. Auctor ut sit
             hendrerit pellentesque fermentum in aliquam mauris 
@@ -301,7 +301,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
       </div>
 
 
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4 xl:px-40 lg-px-24 mx-0  ">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4 lg:px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
             <div className="">
@@ -311,7 +311,7 @@ Replacemet Therapy</h3>
             </div>
 
             <div>
-            <p className="text-[#545454] font-Poppins font-normal lg:text-[1.625em] text-[1rem] pt-2">
+            <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
             Medichealth Wellness provides Hormone replacement therapy
 for women who are dealing with hormone drops or other 
 hormonal imbalances.
@@ -361,7 +361,7 @@ hormonal imbalances.
       </div>
 
 
-      <div className="blueBg h-full w-full  px-4 xl:px-40 lg-px-24 mx-0 my-10 flex flex-col items-center justify-center ">
+      <div className="blueBg h-full w-full  px-4 lg:px-24  mx-0 my-10 flex flex-col items-center justify-center ">
         <div className="flex flex-col justify-center items-center pt-16">
             <h2 className="text-base font-IBMPlex text-[#FFFFFF] font-normal py-2">LOCATION</h2>
             <h3 className="lg:text-5xl text-2xl font-IBMPlex text-[#FFFFFF] font-bold">Where we Operate</h3>
