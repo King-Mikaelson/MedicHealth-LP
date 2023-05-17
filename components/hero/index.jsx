@@ -5,10 +5,10 @@ import Link from "next/link";
 function Hero() {
   return (
     <main className=" w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]">
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-52  px-4 xl:px-40 lg-px-24 mx-0  ">
-        <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 mt-24 lg:mt-48  px-4 xl:px-40 lg-px-24 mx-0  ">
+        <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
           <div className="">
-            <h3 className="text-[#000000] font-IBMPlex text-[3.375rem] font-bold py-3">
+            <h3 className="text-[#000000] font-IBMPlex lg:text-[3.375rem] text-[1.6875rem]  font-bold py-1 md:py-3">
               Medical Weight Loss & Biodentical Hormone Replacemt Therapy
             </h3>
           </div>
@@ -21,9 +21,9 @@ function Hero() {
             <Link href="/">
               <button
                 type="button"
-                className="bg-[#191BFB] py-3 my-14 px-6 flex justify-center items-center rounded-lg shadow-[2px,4px,4px,rgba(0,0,0,0.25)]"
+                className="bg-[#191BFB]  py-2 lg:py-3 my-4 lg:my-14 px-3  md:px-6  flex justify-center items-center rounded-lg shadow-[2px,4px,4px,rgba(0,0,0,0.25)]"
               >
-                <p className="text-[#FFFFFF] text-[1.625rem] font-Poppins font-semibold ">
+                <p className="text-[#FFFFFF] text-[1.2rem] lg:text-[1.625rem] font-Poppins font-semibold ">
                 Make Appointment
                 </p>
               </button>
@@ -31,7 +31,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="lg:w-2/4">
+        <div className="lg:w-2/4 order-1 lg:order-2">
           <Image src={doctorImage} alt="wellness and medical Health" />
         </div>
       </div>

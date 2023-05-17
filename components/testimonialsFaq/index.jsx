@@ -92,15 +92,15 @@ function TestimonialsFaq() {
           },
       ];
   return (
-    <main className="mt-32  px-4 xl:px-40 lg:px-24 mx-0  w-full flex flex-col justify-center">
-        <div className="flex flex-col justify-center items-center py-8">
+    <main className="lg:mt-32 mt-12  px-4 xl:px-40 lg:px-24 mx-0  w-full flex flex-col justify-center">
+        <div className="flex flex-col justify-center items-center lg:py-8 py-0">
         <div className="flex flex-col justify-center">
            <h2 className='font-Poppins text-base text-[#49AD09] uppercase [letter-spacing:0.6em]'>Testimonials</h2> 
            <h3 className='hidden lg:block horizontal-line relative font-Poppins text-[2rem] font-bold text-[#000000]'>Words from Our Clients</h3>
-           <h3 className='lg:hidden relative font-Poppins text-[2rem] font-bold text-[#000000]'>Words from Our Clients</h3>
+           <h3 className='lg:hidden relative font-Poppins text-[1.5rem] lg:text-[2rem] font-bold text-[#000000]'>Words from Our Clients</h3>
         </div>
 
-           <div className='flex flex-col lg:flex-row justify-between items-center gap-10'>
+           <div className='flex flex-col lg:flex-row justify-between items-center lg:gap-10 gap-5'>
             <div className='lg:w-1/4 flex lg:flex-col items-center'>
             <Image src={testimonial1} alt="client testimonial "  className='py-2'/>
             <Image src={testimonial2} alt="client testimonial"  className='mx-2 py-1 px-1 border rounded-full bg-[#49AD09]'/>
@@ -112,7 +112,7 @@ function TestimonialsFaq() {
 
             <div className='lg:w-3/4'>
                 <Image src={Union} alt="client testimonial"  className='py-6'/>
-                <p className='xl:w-[50ch] font-Poppins text-[#000000] text-2xl'>Lorem ipsum dolor sit amet consectetur. Volutpat ullamcorper nunc dis tristique mattis nullam. Etiam aliquam ullamcorper aliquam in ut elementum gravida. Cras vitae interdum diam vulputate nunc. Tristique massa vitae tellus feugiat massa nunc.
+                <p className='xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base'>Lorem ipsum dolor sit amet consectetur. Volutpat ullamcorper nunc dis tristique mattis nullam. Etiam aliquam ullamcorper aliquam in ut elementum gravida. Cras vitae interdum diam vulputate nunc. Tristique massa vitae tellus feugiat massa nunc.
                 </p>
                 <div className='py-6'>
                     <p className='font-Poppins text-[#000000]  font-semibold text-xl py-1'>Elizabeth</p>
@@ -133,7 +133,8 @@ function TestimonialsFaq() {
             <div class="flex-grow border-t-2 border-[#49AD09]"></div>
           </div>
 
-          <h3 className="flex flex-col justify-center items-center font-IBMPlex font-bold  text-5xl text-[#202020] gap-4">Frequently Asked <br/><span className="text-center text-[#49AD09]">Questions</span></h3>
+          <h3 className="flex flex-col justif
+          y-center items-center font-IBMPlex font-bold  lg:text-5xl text-2xl text-[#202020] lg:gap-4 gap-0">Frequently Asked <br/><span className="text-center text-[#49AD09]">Questions</span></h3>
         </div>
 
         <div className="flex flex-col lg:flex-row  justify-center gap-5 items-center w-full mx-auto my-0 md:py-16 py-8">
