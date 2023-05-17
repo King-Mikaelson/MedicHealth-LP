@@ -42,7 +42,7 @@ function NavBar() {
        }
     </ul>
 
-    <div className={open ? 'md:hidden z-10 md:flex md:items-center md:static md:w-auto   absolute top-0 right-0 text-black bg-[#FFFFFF] w-full h-[90vh] transition-all duration-500 ease-in' :  "hidden"}>
+    <div className={open ? 'md:hidden z-10 md:flex md:items-center md:static md:w-auto   absolute top-0 right-0 text-black bg-[#FFFFFF] w-full h-[100vh] transition-all duration-500 ease-in' :  "hidden"}>
    <div className='cursor-pointer flex justify-between px-2 pt-5'>
    <Image src={Logo} alt="logo"/>
    <XMarkIcon  onClick={() => {setOpen(prevValue => !prevValue)}} className="block h-10 w-6" aria-hidden="true"/>
