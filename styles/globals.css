@@ -58,3 +58,45 @@ a {
 .blueBg{
   background:linear-gradient(270.04deg, #191BFB 0.05%, rgba(59, 60, 175, 0.13375) 84.09%, rgba(25, 27, 249, 0.12) 97.84%), #00B8D9
 }
+
+.round-disc::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+
+.horizontal-line::before{
+  content: '';
+  width: 130px;
+  height: 2px;
+  background-color: #49AD09;
+  position: absolute;
+  top: 15px;
+  left: -130px;
+}
+
+.horizontal-line1::before{
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: #49AD09;
+  position: absolute;
+  top: 15px;
+  left: -70px;
+}
+
+.image-line::after{
+content: '';
+  width: 2px;
+  height: 400px;
+  background-color: #49AD09;
+  position: absolute;
+  top: -70px;
+  right: 0px;
+}
+

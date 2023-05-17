@@ -240,7 +240,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
     </div>
 
 
-    <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4  lg:px-24 mx-0  ">
+    <div id="second-section" className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4  lg:px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex lg:items-start flex-col order-2 lg:order-1">
             <div className="">
@@ -301,7 +301,7 @@ tincidunt fusce. Est augue pellentesque luctus quisque.</p>
       </div>
 
 
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4 lg:px-24 mx-0  ">
+      <div id="third-section"  className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4 lg:px-24 mx-0  ">
 
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
             <div className="">
@@ -361,7 +361,7 @@ hormonal imbalances.
       </div>
 
 
-      <div className="blueBg h-full w-full  px-4 lg:px-24  mx-0 my-10 flex flex-col items-center justify-center ">
+      <div id="fourth-section"  className="blueBg h-full w-full  px-4 lg:px-24  mx-0 my-10 flex flex-col items-center justify-center ">
         <div className="flex flex-col justify-center items-center pt-16">
             <h2 className="text-base font-IBMPlex text-[#FFFFFF] font-normal py-2">LOCATION</h2>
             <h3 className="lg:text-5xl text-2xl font-IBMPlex text-[#FFFFFF] font-bold">Where we Operate</h3>
