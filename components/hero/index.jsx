@@ -2,7 +2,8 @@ import doctorImage from "../../public/doctorImage.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import { gsap } from "gsap";
 
 function Hero() {
   const [heroImage, setHeroImage] = useState(false);
@@ -58,7 +59,8 @@ useEffect(() => {
 }, [fadeProp])
   return (
     <>
-{heroImage ? <main id="first-section" className={`${fadeProp.fade} fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}>
+{heroImage ? 
+<main id="first-section" className={`${fadeProp.fade} fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}>
       <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 mt-24 lg:mt-48  px-4  lg:px-24 mx-0  ">
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
           <div className="">
@@ -91,8 +93,8 @@ useEffect(() => {
       </div>
 </main>
     
- : <main id="first-section" className={`${fadeProp1.fade} w-full flex flex-col justify-center bg-[url('/heroImage.png')]  bg-no-repeat bg-cover bg-center`}>
-            <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 mt-24 lg:mt-56  px-4  lg:px-24 mx-0  ">
+ : <main id="first-section" className={`${fadeProp1.fade} h-screen w-full flex flex-col justify-center bg-[url('/heroImage.png')]  bg-no-repeat bg-cover bg-center`}>
+        <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 mt-24 lg:mt-56  px-4  lg:px-24 mx-0  ">
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
           <div className="">
             <h3 className="text-[#000000] font-IBMPlex lg:text-[3.375rem] text-[1.6875rem]  font-bold py-1 md:py-3">
