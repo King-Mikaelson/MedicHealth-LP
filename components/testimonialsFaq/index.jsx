@@ -13,7 +13,7 @@ const Accordion = ({ title, content }) => {
     <div className="accordion-item flex flex-col py-2 rounded-[8px] border-[0px] border-solid ">
       <div className={isActive ?"accordion-title rounded-t-lg" :"accordion-title rounded-lg"} onClick={() => setIsActive(!isActive)}>
         <div className='font-Poppins text-base text-[#696969] font-medium'>{title}</div>
-        <div>{isActive ? <AiOutlineClose  size={30} className='text-[#77808B]'/> : <AiOutlinePlus  size={30} className='text-[#49AD09]'/>}</div>
+            <div>{isActive ? <AiOutlineClose  size={20} className='text-[#77808B]'/> : <AiOutlinePlus  size={20} className='text-[#49AD09]'/>}</div>
       </div>
       {isActive && <div className="accordion-content font-Roboto text-base text-[#696969] font-normal">{content}</div>}
     </div>

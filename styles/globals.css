@@ -59,4 +59,29 @@ a {
   background:linear-gradient(270.04deg, #191BFB 0.05%, rgba(59, 60, 175, 0.13375) 84.09%, rgba(25, 27, 249, 0.12) 97.84%), #00B8D9
 }
 
+.bgImage{
+  background-image: url('/heroImage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* .fade-in-image{
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+} */
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
 
