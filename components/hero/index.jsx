@@ -60,7 +60,7 @@ useEffect(() => {
   return (
     <>
 {heroImage ? 
-<main id="first-section" className={`${fadeProp.fade} fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}>
+<main id="first-section" className={`${fadeProp.fade} h-screen fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}>
       <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 mt-24 lg:mt-48  px-4  lg:px-24 mx-0  ">
         <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
           <div className="">
