@@ -67,31 +67,13 @@ a {
   height: 100vh;
 }
 
-/* .fade-in-image{
-  animation: fadeIn 3s;
-}
 
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-} */
-
-.fade-in {
-  transition: opacity 1s ease;
-}
-
-.fade-out {
-  opacity: 0;
-  transition: opacity 1s ease;
-}
-
-
-.swiper {
+swiper-container {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+swiper-slide {
   background-position: center;
   background-size: cover;
 }

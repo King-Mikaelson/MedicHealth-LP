@@ -2,44 +2,31 @@ import doctorImage from "../../public/doctorImage.png";
 import Image from "next/image";
 import Link from "next/link";
 import { gsap } from "gsap";
-import React, { useRef} from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { useRef, useEffect } from 'react';
+import { register } from 'swiper/element/bundle';
+
+register();
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
-
-// import required modules
-import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 
 function Hero() {
 
+  const swiperElRef = useRef(null);
   return (
-    <>
       <>
-        <Swiper
-          spaceBetween={30}
-          effect={"fade"}
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
-          modules={[EffectFade, Autoplay]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
+      <swiper-container ref={swiperElRef} class="mySwiper" 
+    autoplay-delay="4000" effect="fade" autoplay-disable-on-interaction="true">
+          <swiper-slide>
             <main
               id="first-section"
-              className={` h-screen fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}
+              className={`md:h-[100vh] lg:h-[100vh] h-[100vh] fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}
             >
-              <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 mt-24 lg:mt-48  px-4  lg:px-24 mx-0  ">
-                <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
+              <div className="flex flex-col md:flex-row w-full justify-between items-center lg:gap-10 mt-16  md:mt-24  px-4  lg:px-24 mx-0  ">
+                <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 md:order-1">
                   <div className="">
-                    <h3 className="text-[#000000] font-IBMPlex lg:text-[3.375rem] text-[1.6875rem]  font-bold py-1 md:py-3">
+                    <h3 className="text-[#000000] font-IBMPlex lg:text-[2rem] xl:text-[3.375rem] text-[1.6875rem]  font-bold py-1 md:py-3">
                       Medical Weight Loss & Biodentical Hormone Replacemt
                       Therapy
                     </h3>
@@ -67,21 +54,21 @@ function Hero() {
                   </div>
                 </div>
 
-                <div className="lg:w-2/4 order-1 lg:order-2">
+                <div className="lg:w-2/4 order-1 md:order-2">
                   <Image src={doctorImage} alt="wellness and medical Health" />
                 </div>
               </div>
             </main>
-          </SwiperSlide>
-          <SwiperSlide>
+            </swiper-slide>
+            <swiper-slide>
             <main
               id="first-section"
-              className={` h-screen w-full flex flex-col justify-center bg-[url('/heroImage.png')]  bg-no-repeat bg-cover bg-center`}
+              className={` md:h-[100vh]  lg:h-[100vh] h-[100vh] w-full flex flex-col justify-center bg-[url('/heroImage.png')]  bg-no-repeat bg-cover bg-center`}
             >
-              <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 mt-24 lg:mt-56  px-4  lg:px-24 mx-0  ">
+              <div className="flex flex-col lg:flex-row w-full justify-between items-center lg:gap-10 mt-16 md:mt-24  px-4  lg:px-24 mx-0  ">
                 <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
                   <div className="">
-                    <h3 className="text-[#000000] font-IBMPlex lg:text-[3.375rem] text-[1.6875rem]  font-bold py-1 md:py-3">
+                    <h3 className="text-[#000000] font-IBMPlex lg:text-[2rem] xl:text-[3.375rem] text-[1.6875rem]  font-bold py-1 md:py-3">
                       Medical Weight Loss & Biodentical Hormone Replacemt
                       Therapy
                     </h3>
@@ -110,10 +97,8 @@ function Hero() {
                 </div>
               </div>
             </main>
-          </SwiperSlide>
-        </Swiper>
-      </>
-      
+            </swiper-slide>
+      </swiper-container>
     </>
   );
 }
