@@ -38,13 +38,14 @@ function AboutServices() {
             </h2>
           </div>
           <p className="text-[#545454]  text-[1rem] font-Poppins font-normal  lg:text-[1.625em]">
-            Lorem ipsum dolor sit amet consectetur. Integer adipiscing aliquam
-            tincidunt mi dignissim. Amet nunc parturient volutpat egestas amet
-            aliquam egestas in. Cras pharetra ac vitae malesuada faucibus. Felis
-            viverra non lectus et purus mollis amet quis. Duis tempor nullam
-            varius facilisi malesuada varius eu lorem suspendisse. Posuere nulla
-            sit scelerisque auctor nunc. Pretium vulputate vestibulum in
-            pharetra ipsum sagittis sit.
+          We are a telehealth weight loss clinic dedicated to helping individuals
+achieve their weight loss goals in a healthy and sustainable way. We
+understand that weight loss is a personal journey, and we are here to
+provide you with the support, guidance, and medical expertise you need to
+succeed. Our personalized holistic weight loss approach includes GLP-1
+medication therapy, nutrition, and exercise counseling tailored to your
+personal needs. At Medic Health &amp; Wellness, our primary goal is helping
+you achieve lasting weight loss results and a healthier, happier life.
           </p>
         </div>
       </div>
@@ -56,8 +57,7 @@ function AboutServices() {
             Our Services
           </h2>
           <h3 className="text-[#1C1C1C] text-[1.5rem] lg:text-[2.5rem] font-IBMPlex font-normal py-0 mx-0 flex flex-col items-center justify-center">
-            We have the best <br />
-            <span>quality for you</span>
+          What we Offer
           </h3>
         </div>
 
@@ -67,13 +67,15 @@ function AboutServices() {
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-                Medical <br /> weightloss
+              GLP-1 <br/>  Medications
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-                Lorem ipsum dolor sit amet consectetur. Eget proin velit.
+              We offer Semaglutide or Tirzepatide once
+weekly injections that help individuals lose about 15-20% of their
+body weight.
               </p>
 
-              {readMore ? (
+              {/* {readMore ? (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">
                     Read Less
@@ -95,7 +97,7 @@ function AboutServices() {
                     className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
-              )}
+              )} */}
             </div>
           </div>
 
@@ -104,13 +106,15 @@ function AboutServices() {
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-                Hormone <br /> Replacement
+              Nutrition  <br /> Guidance
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-                Lorem ipsum dolor sit amet consectetur. Eget proin velit.
+              Healthy eating does not have to be boring. We
+will teach you how to make nutritious food choices that support your
+weight loss journey without sacrificing taste or enjoyment.
               </p>
 
-              {readMore2 ? (
+              {/* {readMore2 ? (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">
                     Read Less
@@ -132,7 +136,7 @@ function AboutServices() {
                     className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
-              )}
+              )} */}
             </div>
           </div>
 
@@ -141,14 +145,16 @@ function AboutServices() {
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-                Expert <br />
-                Practitioners
+              Exercise  <br />
+              Program
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-                Lorem ipsum dolor sit amet consectetur. Eget proin velit.
+              Physical activity is essential for weight loss and
+overall well-being. We will create a personalized exercise plan that
+fits your fitness level &amp; lifestyle
               </p>
 
-              {readMore3 ? (
+              {/* {readMore3 ? (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">
                     Read Less
@@ -170,7 +176,7 @@ function AboutServices() {
                     className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
-              )}
+              )} */}
             </div>
           </div>
 
@@ -179,14 +185,15 @@ function AboutServices() {
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-                Tele <br />
-                Health{" "}
+              Expert <br />
+              Clinicians
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-                Lorem ipsum dolor sit amet consectetur. Eget proin velit.
+            Our team are all Board-Certified with years of
+experience managing weight challenges in diverse populations.
               </p>
 
-              {readMore4 ? (
+              {/* {readMore4 ? (
                 <div className="flex items-center gap-2">
                   <p className="text-base font-Poppins font-medium text-[#363636] ">
                     Read Less
@@ -208,7 +215,7 @@ function AboutServices() {
                     className="text-[#191BFB] cursor-pointer"
                   />
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>
@@ -233,13 +240,12 @@ function AboutServices() {
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em] py-2">
-                  Lab Work
+                Consultation
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-                  Lorem ipsum dolor sit amet consectetur. Feugiat ultrices felis
-                  orci nisl. Elit platea felis erat viverra curabitur quis
-                  ornare. Lorem cras morbi nisi enim lectus tincidunt fusce. Est
-                  augue pellentesque luctus quisque.
+                Initial telehealth medical screening with one of our board-
+certified clinicians via HIPAA complaint video technology. Quick, convenient
+&amp; safe.
                 </p>
               </div>
             </div>
@@ -252,13 +258,12 @@ function AboutServices() {
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em]  py-2">
-                  Consultation
+                Lab Work
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-                  Lorem ipsum dolor sit amet consectetur. Feugiat ultrices felis
-                  orci nisl. Elit platea felis erat viverra curabitur quis
-                  ornare. Lorem cras morbi nisi enim lectus tincidunt fusce. Est
-                  augue pellentesque luctus quisque.
+               Obtain blood work at any LabCorp location. If you have recent
+blood work within the past 3 months, that may be used at the discretion of
+our clinician.
                 </p>
               </div>
             </div>
@@ -274,10 +279,8 @@ function AboutServices() {
                   Treatment
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-                  Lorem ipsum dolor sit amet consectetur. Feugiat ultrices felis
-                  orci nisl. Elit platea felis erat viverra curabitur quis
-                  ornare. Lorem cras morbi nisi enim lectus tincidunt fusce. Est
-                  augue pellentesque luctus quisque.
+                If you are cleared for treatment, your medications and supplies
+will be shipped discreetly and directly to your address.
                 </p>
               </div>
             </div>
@@ -293,10 +296,10 @@ function AboutServices() {
                   Follow up
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-                  Lorem ipsum dolor sit amet consectetur. Feugiat ultrices felis
-                  orci nisl. Elit platea felis erat viverra curabitur quis
-                  ornare. Lorem cras morbi nisi enim lectus tincidunt fusce. Est
-                  augue pellentesque luctus quisque.
+                Monthly follow up to access your progress, adjust dose, and
+renew prescriptions. During the time between your appointments if you
+have any questions or concerns, we are always available. You have a team
+rooting for your success and well-being.
                 </p>
               </div>
             </div>
@@ -320,48 +323,65 @@ function AboutServices() {
 
           <div>
             <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
-              Lorem ipsum dolor sit amet consectetur. Praesent et aliquet magna
-              pellentesque eget. Auctor ut sit hendrerit pellentesque fermentum
-              in aliquam mauris metus. Enim porttitor id condimentum tellus nec
-              amet. Eget enim sagittis vel condimentum felis adipi
+            Excessive body weight, commonly referred to as obesity, is a complex
+health issue that can have a significant impact on both physical and mental
+
+well-being. Obesity is often associated with a higher risk of various health
+problems, including heart disease, diabetes, certain types of cancer, and
+joint issues. Additionally, it can affect self-esteem, body image, and overall
+quality of life. GLP-1 medications, semaglutide and tirzepatide are used to
+treat obesity. Their benefits include:
             </p>
 
             <div className="flex flex-col py-6">
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Back and Joints Pains
+                Appetite and caloric intake control
+
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Total Body Fat
+                Reduces food cravings
+
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Poor Physical Activities
+                Accelerates weight loss and keeps it off
+
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Snoring
+                Lowers blood sugar levels
+
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Fatigue
+                Improves blood pressure and cholesterol
+                </p>
+              </div>
+
+              <div className="flex  items-center py-2">
+                <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
+                <p className="text-[#121212] font-medium text-base font-Poppins">
+No restrictive diet required
                 </p>
               </div>
             </div>
+
+            
 
             <Link href="/">
               <button
@@ -469,7 +489,7 @@ function AboutServices() {
             Where we Operate
           </h3>
           <p className="text-base font-Poppins text-[#FFFFFF] font-normal text-center py-4">
-            Our Telehealth services are unavailable to client in the following
+            Our Telehealth services are available to client in the following
             state
             <br />
             We are working to have our services available in all 50 states.
@@ -505,8 +525,14 @@ function AboutServices() {
 
               <div className="grid lg:grid-cols-[170px,1fr] grid-cols-2  justify-center    items-center relative">
                 <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2"></div>
-                <p> Oregun </p>
+                <p> Oregon </p>
                 <p> New Mexico</p>
+              </div>
+
+              <div className="grid lg:grid-cols-[170px,1fr] grid-cols-2  justify-center    items-center relative">
+                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2"></div>
+                <p> Alaska</p>
+                <p> South Dakota </p>
               </div>
 
               <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]    justify-center   items-center relative">

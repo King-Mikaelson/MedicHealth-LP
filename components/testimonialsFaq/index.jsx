@@ -25,70 +25,62 @@ const Accordion = ({ title, content }) => {
 function TestimonialsFaq() {
     const accordionData = [
         {
-          title: 'Lorem ipsum dolor sit amet',
-          content: `Lorem ipsum dolor sit amet consectetur. Egestas porttitor lectus velit tristique eget rhoncus sed. Nulla lectus faucibus malesuada et. Urna massa enim amet viverra enim sem ultrices mauris sit. At.`
+          title: 'What is Semaglutide?',
+          content: `Semaglutide is an FDA approved injectable
+          prescription medication for adults with a BMI &gt; 27 or higher.`
         },
         {
-          title: 'Lorem ipsum dolor sit amet consectetur. Eu condimentum non purus vestibulum eget. Pellentesque.',
-          content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-          reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-          quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-          pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-          quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-          Repudiandae, mollitia id reprehenderit a ab odit!`
+          title: 'What is Tirzepatide?',
+          content: ` Tirzepatide is FDA approved for type 2 diabetes but
+          it is used off label in treating obesity and weight concerns.`
         },
         {
-          title: 'Lorem ipsum dolor sit amet',
-          content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-          quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-          dolor ut sequi minus iste? Quas?`
+          title: 'How are the medications taken?',
+          content: ` Semaglutide or Tirzepatide is an
+          injection taken in the subcuteanous fat of belly, behind the arms or thighs
+          once weekly. Expect to be on medication for months to reach and maintain
+          weight goals.`
         },
         {
-            title: 'What often will results be reported?',
-            content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-            quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-            dolor ut sequi minus iste? Quas?`
+            title: 'What is the average weight loss?',
+            content: `What is the average weight loss? The average weight loss with
+            Semaglutide or Tirzepatide is about 15-20% of a person’s body weight
+            depending on the medication used.`
           }
       ];
 
 
       const accordionData1 = [
         {
-          title: 'Lorem ipsum dolor sit amet consectetur. Posuere ut libero mattis mattis nunc ullamcorper facilisi. Ornare.',
-          content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-          laborum cupiditate possimus labore, hic temporibus velit dicta earum
-          suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-          voluptatem.`
+          title: 'Who should not take these medications?',
+          content: ` Patient with h/o diabetic
+          retinopathy, low blood sugar, disease of gall bladder, acute inflammation of
+          pancreas, decreased kidney function, Medullary thyroid cancer, multiple
+          endocrine neoplasia type 2, family history of medullary thyroid carcinoma,
+          pregnant or breastfeeding.`
         },
         {
-          title: 'Lorem ipsum dolor sit amet',
-          content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-          reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-          quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-          pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-          quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-          Repudiandae, mollitia id reprehenderit a ab odit!`
+          title: 'Where does this medication come from?',
+          content: ` All our medications are prescribed by a licensed provider and dispensed from an FDA registered pharmacy in the USA. Medications will only be prescribed after a medical
+          screening and consultation.`
         },
         {
-          title: 'Lorem ipsum dolor sit amet consectetur. Odio viverra quis ridiculus tortor vestibulum in viverra venenatis nunc.',
-          content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-          quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-          dolor ut sequi minus iste? Quas?`
+          title: 'Are there any side effects? ',
+          content: `Yes. The most common side effects are
+          nausea, vomiting, diarrhea, constipation, abdominal pain, heartburn but
+          these symptoms are usually mild for most patients.`
         },
         {
-            title: 'Lorem ipsum dolor sit amet consectetur. Praesent id malesuada malesuada tempor sit. Tortor luctus neque.',
-            content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-            reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-            quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-            pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-            quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-            Repudiandae, mollitia id reprehenderit a ab odit!`
+            title: 'Do You Accept Insurance?',
+            content: `No, we do not accept insurance. We accept
+            Visa, MasterCard, Discover, American Express, HSA, FSA cards.`
           },
           {
-            title: 'Lorem ipsum dolor sit amet consectetur. Cursus volutpat aenean sed eleifend bibendum vivamus. Eget ut.',
-            content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-            quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-            dolor ut sequi minus iste? Quas?`
+            title: 'What does the pricing include?',
+            content: `Monthly supply of either semaglutide or
+            tirzepatide medication, needles, alcohol pads, initial and unlimited ongoing
+            medical consults, nutrition guide, and exercise plans to support your weight
+            loss.`
           },
       ];
   return (
@@ -112,11 +104,15 @@ function TestimonialsFaq() {
 
             <div className='lg:w-3/4'>
                 <Image src={Union} alt="client testimonial"  className='py-6'/>
-                <p className='xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base'>Lorem ipsum dolor sit amet consectetur. Volutpat ullamcorper nunc dis tristique mattis nullam. Etiam aliquam ullamcorper aliquam in ut elementum gravida. Cras vitae interdum diam vulputate nunc. Tristique massa vitae tellus feugiat massa nunc.
+                <p className='xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base'>“I am so glad I found Medic Health &amp; Wellness! I have struggled with my
+weight for many years, and I have tried different things over the years.
+Started on Semaglutide several months ago, and I have lost over 30lbs and
+kept the weight off. I recommend Medic Health &amp; Wellness to all my family
+and friends struggling with weight loss!”
                 </p>
                 <div className='py-6'>
                     <p className='font-Poppins text-[#000000]  font-semibold text-xl py-1'>Elizabeth</p>
-                    <p className='font-Poppins text-[#000000]  font-normal text-lg py-1'>Trader</p>
+                    {/* <p className='font-Poppins text-[#000000]  font-normal text-lg py-1'>Trader</p> */}
                 </div>
             </div>
            </div>
