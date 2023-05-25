@@ -252,7 +252,7 @@ function AboutServices() {
             <div className="flex items-center py-4 lg:ml-[-20rem]">
               <Image
                 src={PersonPic}
-                className="lg:w-[81px] lg:h-[84.62px]"
+                className="md:w-[81px] md:h-[84.62px]"
                 alt="consultation"
               />
               <div className="px-6">
@@ -271,7 +271,7 @@ function AboutServices() {
               <Image
                 src={InjectionPic}
                 alt="lab work"
-                className="lg:w-[81px] lg:h-[84.62px]"
+                className="md:w-[81px] md:h-[84.62px]"
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em]  py-2">
@@ -307,7 +307,7 @@ function AboutServices() {
               <Image
                 src={HeartBeatPic}
                 alt="heart beat pic"
-                className="lg:w-[81px] lg:h-[84.62px]"
+                className="md:w-[81px] md:h-[84.62px]"
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em]  py-2">
@@ -424,22 +424,27 @@ function AboutServices() {
       >
         <div className="lg:w-2/4 self-start flex  lg:items-start flex-col order-2 lg:order-1">
           <div className="">
-            <h2 className="text-[#49AD09] font-Manrope text-sm font-bold lg:py-2">
+            {/* <h2 className="text-[#49AD09] font-Manrope text-sm font-bold lg:py-2">
               Appointment
-            </h2>
+            </h2> */}
             <h3 className="text-[#000000] font-IBMPlex lg:text-5xl text-2xl font-medium lg:py-1">
-              Bioidentical Hormone Replacemet Therapy
+              Pricing
             </h3>
           </div>
 
           <div>
-            <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
+
+          <div className="flex flex-col py-6 gap-6">
+              <p className="text-[#545454] font-medium text-2xl font-Poppins">Semaglutide $399/month</p>
+              <p className="text-[#545454] font-medium text-2xl font-Poppins">Tirzepatide $499/month</p>
+            </div>
+            {/* <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
               Medichealth Wellness provides Hormone replacement therapy for
               women who are dealing with hormone drops or other hormonal
               imbalances.
-            </p>
+            </p> */}
 
-            <div className="flex flex-col py-6">
+            {/* <div className="flex flex-col py-6">
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
@@ -474,7 +479,7 @@ function AboutServices() {
                   Brain Fog
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <Link href="/">
               <button
@@ -482,7 +487,7 @@ function AboutServices() {
                 className="bg-[#191BFB] py-3 lg:px-10 px-4 flex justify-center items-center rounded-[10px]"
               >
                 <p className="text-[#FFFFFF] text-base font-Manrope font-medium ">
-                  Book BHRT Consult
+                  Book Consultation
                 </p>
               </button>
             </Link>
