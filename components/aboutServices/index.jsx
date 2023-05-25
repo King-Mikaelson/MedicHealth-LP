@@ -290,6 +290,8 @@ function AboutServices() {
                 src={PillPic}
                 alt="drug pic"
                 className="lg:w-[81px] lg:h-[84.62px]"
+                priority={true}
+
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em]  py-2">
@@ -414,6 +416,8 @@ function AboutServices() {
             src={WeightLossPic}
             alt="wellness and medical Health"
             className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
+            loading="lazy"
+            priority={true}
           />
         </div>
       </div>
@@ -499,6 +503,7 @@ function AboutServices() {
             src={TherapyPic}
             alt="wellness and medical Health"
             className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
+            loading="lazy"
           />
         </div>
       </div>
