@@ -513,7 +513,7 @@ function AboutServices() {
             Our Telehealth services are available to client in the following
             state
             <br />
-            We are working to have our services available in all 50 states.
+            We are working to have our services available in all 50 states. 
           </p>
         </div>
 
