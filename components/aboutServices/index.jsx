@@ -7,15 +7,18 @@ import telePic from "../../public/telePic.png";
 import heartPic from "../../public/heartPic.png";
 import PillPic from "../../public/PillPic.png";
 import InjectionPic from "../../public/InjectionPic.png";
-import TherapyPic from "../../public/TherapyPic.png";
+import TherapyPic from "../../public/stockTherapy.jpg";
 import HeartBeatPic from "../../public/HeartBeatPic.png";
-import WeightLossPic from "../../public/WeightLossPic.png";
+import WeightLossPic from "../../public/stockImage.jpg";
 import PersonPic from "../../public/PersonPic.png";
 import Map from "../../public/Map.png";
 import { useState } from "react";
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
 import { AiFillCheckCircle } from "react-icons/ai";
 import Link from "next/link";
+import { CiDumbbell } from "react-icons/ci";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserDoctor, faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 function AboutServices() {
   const [readMore, setReadMore] = useState(false);
@@ -38,41 +41,41 @@ function AboutServices() {
             </h2>
           </div>
           <p className="text-[#545454]  text-[1rem] font-Poppins font-normal  lg:text-[1.625em]">
-          We are a telehealth weight loss clinic dedicated to helping individuals
-achieve their weight loss goals in a healthy and sustainable way. We
-understand that weight loss is a personal journey, and we are here to
-provide you with the support, guidance, and medical expertise you need to
-succeed. Our personalized holistic weight loss approach includes GLP-1
-medication therapy, nutrition, and exercise counseling tailored to your
-personal needs. At Medic Health &amp; Wellness, our primary goal is helping
-you achieve lasting weight loss results and a healthier, happier life.
+            We are a telehealth weight loss clinic dedicated to helping
+            individuals achieve their weight loss goals in a healthy and
+            sustainable way. We understand that weight loss is a personal
+            journey, and we are here to provide you with the support, guidance,
+            and medical expertise you need to succeed. Our personalized holistic
+            weight loss approach includes GLP-1 medication therapy, nutrition,
+            and exercise counseling tailored to your personal needs. At Medic
+            Health &amp; Wellness, our primary goal is helping you achieve
+            lasting weight loss results and a healthier, happier life.
           </p>
         </div>
       </div>
 
       <div className="flex flex-col items-center lg:py-16 pt-16 pb-0   px-4 lg:px-24 mx-0  ">
         <div className="relative flex flex-col justify-center">
-          <div class="hidden absolute top-4 left-6 lg:block flex-grow h-1 w-44 border-t-2 bg-[#49AD09]"></div>
+          <div class="hidden absolute top-4 left-6 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
           <h2 className="self-end text-[#49AD09] text-base font-IBMPlex font-bold py-2">
             Our Services
           </h2>
           <h3 className="text-[#1C1C1C] text-[1.5rem] lg:text-[2.5rem] font-IBMPlex font-normal py-0 mx-0 flex flex-col items-center justify-center">
-          What we Offer
+            What we Offer
           </h3>
         </div>
 
-        <div className="flex flex-col lg:flex-row w-full justify-between items-center pt-16 pb-32 gap-6">
+        <div className="flex flex-col md:flex-row w-full justify-between items-center pt-16 pb-32 gap-6">
           <div className="flex flex-col justify-center items-center">
             <Image src={drugPic} className="lg:pb-12 pb-6" />
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-              GLP-1 <br/>  Medications
+                GLP-1 <br /> Medications
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-              We offer Semaglutide or Tirzepatide once
-weekly injections that help individuals lose about 15-20% of their
-body weight.
+                We offer Semaglutide or Tirzepatide once weekly injections that
+                help individuals lose about 15-20% of their body weight.
               </p>
 
               {/* {readMore ? (
@@ -102,16 +105,22 @@ body weight.
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Image src={heartPic} className="lg:pb-12 pb-6" />
+            <div className=" bg-[rgba(108,87,219,0.06)] rounded-full px-4 py-4 lg:mb-12 mb-6">
+              <FontAwesomeIcon
+                icon={faUtensils}
+                color="#191BFB"
+                className="text-[3rem]"
+              />
+            </div>
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-              Nutrition  <br /> Guidance
+                Nutrition <br /> Guidance
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-              Healthy eating does not have to be boring. We
-will teach you how to make nutritious food choices that support your
-weight loss journey without sacrificing taste or enjoyment.
+                Healthy eating does not have to be boring. We will teach you how
+                to make nutritious food choices that support your weight loss
+                journey without sacrificing taste or enjoyment.
               </p>
 
               {/* {readMore2 ? (
@@ -141,17 +150,19 @@ weight loss journey without sacrificing taste or enjoyment.
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Image src={expertPic} className="lg:pb-12 pb-6" />
+            <div className=" bg-[rgba(108,87,219,0.06)] rounded-full px-2 py-2 lg:mb-12 mb-6">
+              <CiDumbbell size={60} color="#191BFB" className="text-[20rem]" />
+            </div>
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-              Exercise  <br />
-              Program
+                Exercise <br />
+                Program
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-              Physical activity is essential for weight loss and
-overall well-being. We will create a personalized exercise plan that
-fits your fitness level &amp; lifestyle
+                Physical activity is essential for weight loss and overall
+                well-being. We will create a personalized exercise plan that
+                fits your fitness level &amp; lifestyle
               </p>
 
               {/* {readMore3 ? (
@@ -181,16 +192,22 @@ fits your fitness level &amp; lifestyle
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <Image src={telePic} className="lg:pb-12 pb-6" />
+            <div className=" bg-[rgba(108,87,219,0.06)] rounded-full px-4 py-4 lg:mb-12 mb-6">
+              <FontAwesomeIcon
+                icon={faUserDoctor}
+                color="#191BFB"
+                className="text-[3rem]"
+              />
+            </div>
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
-              Expert <br />
-              Clinicians
+                Expert <br />
+                Clinicians
               </h4>
               <p className="text-[0.9375em] font-Poppins font-light text-[#213D39] text-center py-4">
-            Our team are all Board-Certified with years of
-experience managing weight challenges in diverse populations.
+                Our team are all Board-Certified with years of experience
+                managing weight challenges in diverse populations.
               </p>
 
               {/* {readMore4 ? (
@@ -234,36 +251,36 @@ experience managing weight challenges in diverse populations.
           <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
             <div className="flex items-center py-4 lg:ml-[-20rem]">
               <Image
-                src={InjectionPic}
+                src={PersonPic}
                 className="lg:w-[81px] lg:h-[84.62px]"
-                alt="injection"
+                alt="consultation"
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em] py-2">
-                Consultation
+                  Consultation
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-                Initial telehealth medical screening with one of our board-
-certified clinicians via HIPAA complaint video technology. Quick, convenient
-&amp; safe.
+                  Initial telehealth medical screening with one of our board-
+                  certified clinicians via HIPAA complaint video technology.
+                  Quick, convenient &amp; safe.
                 </p>
               </div>
             </div>
 
             <div className="flex items-center py-4 lg:ml-[-10rem]">
               <Image
-                src={PersonPic}
-                alt="injection"
+                src={InjectionPic}
+                alt="lab work"
                 className="lg:w-[81px] lg:h-[84.62px]"
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em]  py-2">
-                Lab Work
+                  Lab Work
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-               Obtain blood work at any LabCorp location. If you have recent
-blood work within the past 3 months, that may be used at the discretion of
-our clinician.
+                  Obtain blood work at any LabCorp location. If you have recent
+                  blood work within the past 3 months, that may be used at the
+                  discretion of our clinician.
                 </p>
               </div>
             </div>
@@ -271,7 +288,7 @@ our clinician.
             <div className="flex items-center py-4">
               <Image
                 src={PillPic}
-                alt="injection"
+                alt="drug pic"
                 className="lg:w-[81px] lg:h-[84.62px]"
               />
               <div className="px-6">
@@ -279,8 +296,9 @@ our clinician.
                   Treatment
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-                If you are cleared for treatment, your medications and supplies
-will be shipped discreetly and directly to your address.
+                  If you are cleared for treatment, your medications and
+                  supplies will be shipped discreetly and directly to your
+                  address.
                 </p>
               </div>
             </div>
@@ -288,7 +306,7 @@ will be shipped discreetly and directly to your address.
             <div className="flex items-center py-4  lg:ml-[-10rem]">
               <Image
                 src={HeartBeatPic}
-                alt="injection"
+                alt="heart beat pic"
                 className="lg:w-[81px] lg:h-[84.62px]"
               />
               <div className="px-6">
@@ -296,10 +314,11 @@ will be shipped discreetly and directly to your address.
                   Follow up
                 </h4>
                 <p className="text-[#545454] font-Poppins font-normal text-base leading-[1.375em]">
-                Monthly follow up to access your progress, adjust dose, and
-renew prescriptions. During the time between your appointments if you
-have any questions or concerns, we are always available. You have a team
-rooting for your success and well-being.
+                  Monthly follow up to access your progress, adjust dose, and
+                  renew prescriptions. During the time between your appointments
+                  if you have any questions or concerns, we are always
+                  available. You have a team rooting for your success and
+                  well-being.
                 </p>
               </div>
             </div>
@@ -323,65 +342,59 @@ rooting for your success and well-being.
 
           <div>
             <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
-            Excessive body weight, commonly referred to as obesity, is a complex
-health issue that can have a significant impact on both physical and mental
-
-well-being. Obesity is often associated with a higher risk of various health
-problems, including heart disease, diabetes, certain types of cancer, and
-joint issues. Additionally, it can affect self-esteem, body image, and overall
-quality of life. GLP-1 medications, semaglutide and tirzepatide are used to
-treat obesity. Their benefits include:
+              Excessive body weight, commonly referred to as obesity, is a
+              complex health issue that can have a significant impact on both
+              physical and mental well-being. Obesity is often associated with a
+              higher risk of various health problems, including heart disease,
+              diabetes, certain types of cancer, and joint issues. Additionally,
+              it can affect self-esteem, body image, and overall quality of
+              life. GLP-1 medications, semaglutide and tirzepatide are used to
+              treat obesity. Their benefits include:
             </p>
 
             <div className="flex flex-col py-6">
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                Appetite and caloric intake control
-
+                  Appetite and caloric intake control
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                Reduces food cravings
-
+                  Reduces food cravings
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                Accelerates weight loss and keeps it off
-
+                  Accelerates weight loss and keeps it off
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                Lowers blood sugar levels
-
+                  Lowers blood sugar levels
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-                Improves blood pressure and cholesterol
+                  Improves blood pressure and cholesterol
                 </p>
               </div>
 
               <div className="flex  items-center py-2">
                 <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
                 <p className="text-[#121212] font-medium text-base font-Poppins">
-No restrictive diet required
+                  No restrictive diet required
                 </p>
               </div>
             </div>
-
-            
 
             <Link href="/">
               <button
@@ -396,8 +409,12 @@ No restrictive diet required
           </div>
         </div>
 
-        <div className="lg:w-2/4 order-1 lg:order-2">
-          <Image src={WeightLossPic} alt="wellness and medical Health" />
+        <div className="lg:w-2/4 md:w-3/4 lg:self-end order-1 lg:order-2">
+          <Image
+            src={WeightLossPic}
+            alt="wellness and medical Health"
+            className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
+          />
         </div>
       </div>
 
@@ -405,7 +422,7 @@ No restrictive diet required
         id="third-section"
         className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4 lg:px-24 mx-0  "
       >
-        <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 lg:order-1">
+        <div className="lg:w-2/4 self-start flex  lg:items-start flex-col order-2 lg:order-1">
           <div className="">
             <h2 className="text-[#49AD09] font-Manrope text-sm font-bold lg:py-2">
               Appointment
@@ -472,8 +489,12 @@ No restrictive diet required
           </div>
         </div>
 
-        <div className="lg:w-2/4 self-end order-1 lg:order-2">
-          <Image src={TherapyPic} alt="wellness and medical Health" />
+        <div className="lg:w-2/4 md:w-3/4 lg:self-end order-1 lg:order-2">
+          <Image
+            src={TherapyPic}
+            alt="wellness and medical Health"
+            className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
+          />
         </div>
       </div>
 
@@ -496,7 +517,7 @@ No restrictive diet required
           </p>
         </div>
 
-        <div className="flex flex-col lg:flex-row w-full justify-between items-center px-12 pb-16 mx-auto my-auto gap-6 lg:gap-0">
+        <div className="flex flex-col md:flex-row w-full justify-between items-center px-12 pb-16 mx-auto my-auto gap-6 lg:gap-0">
           <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col text-[#FFFFFF] font-Poppins font-bold lg:text-[2rem] text-[1.25rem] mx-auto my-auto">
             <div className="flex flex-col w-full ">
               <div className="grid relative lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]   justify-center items-center">

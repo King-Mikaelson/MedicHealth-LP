@@ -1,4 +1,4 @@
-import doctorImage from "../../public/doctorImage.png";
+import doctorImage from "../../public/hero1.png";
 import Image from "next/image";
 import Link from "next/link";
 import { gsap } from "gsap";
@@ -16,7 +16,8 @@ function Hero() {
   const swiperElRef = useRef(null);
   return (
       <>
-      {/* <swiper-container ref={swiperElRef} class="mySwiper" 
+      {
+      /* <swiper-container ref={swiperElRef} class="mySwiper" 
     autoplay-delay="4000" effect="fade" autoplay-disable-on-interaction="true">
           <swiper-slide>
             <main
@@ -99,7 +100,7 @@ medications are prescribed by licensed providers.
 
       <main
               id="first-section"
-              className={`md:h-[100vh] lg:h-[100vh] h-[100vh] fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}
+              className={`md:h-full md:py-24 lg:h-[100vh] h-[100vh] fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}
             >
               <div className="flex flex-col md:flex-row w-full justify-between items-center lg:gap-10 mt-16  md:mt-24  px-4  lg:px-24 mx-0  ">
                 <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 md:order-1">
