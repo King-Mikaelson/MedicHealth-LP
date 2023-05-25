@@ -416,7 +416,6 @@ function AboutServices() {
             src={WeightLossPic}
             alt="wellness and medical Health"
             className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
-            loading="lazy"
             priority={true}
           />
         </div>
