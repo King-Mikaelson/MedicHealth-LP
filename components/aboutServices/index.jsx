@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WellnessPic from "../../public/About.png";
+import WellnessPic from "../../public/medicWeightLoss.jpeg";
 import HowWeWork from "../../public/HowWeWork.png";
 import drugPic from "../../public/drugPic.png";
 import expertPic from "../../public/expertPic.png";
@@ -7,9 +7,9 @@ import telePic from "../../public/telePic.png";
 import heartPic from "../../public/heartPic.png";
 import PillPic from "../../public/PillPic.png";
 import InjectionPic from "../../public/InjectionPic.png";
-import TherapyPic from "../../public/stockTherapy.jpg";
+import TherapyPic from "../../public/womenGroup.jpg";
 import HeartBeatPic from "../../public/HeartBeatPic.png";
-import WeightLossPic from "../../public/stockImage.jpg";
+import WeightLossPic from "../../public/whiteWomanWeightLoss.jpeg";
 import PersonPic from "../../public/PersonPic.png";
 import Map from "../../public/Map.png";
 import { useState } from "react";
@@ -27,16 +27,24 @@ function AboutServices() {
   const [readMore4, setReadMore4] = useState(false);
   return (
     <main className="mt-28 w-full flex flex-col justify-center">
-      <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-10  px-4 lg:px-24 mx-0  ">
+      <div
+        id="first-section"
+        className="flex flex-col lg:flex-row w-full justify-between items-center gap-10  px-4 lg:px-24 mx-0  "
+      >
         <div className="lg:w-2/4">
-          <Image src={WellnessPic} alt="wellness and medical Health" />
+          <Image
+            src={WellnessPic}
+            alt="wellness and medical Health"
+            priority={true}
+            className="rounded-xl"
+          />
         </div>
 
         <div className="lg:w-2/4 self-start flex justify-center lg:items-start flex-col">
           <div className="relative">
             <div class="hidden absolute top-8 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
             <h2 className="py-4 text-[#1C1C1C] lg:px-36  font-Poppins lg:font-bold font-medium lg:text-base text-2xl ">
-              <span className="text-[#49AD09]">About </span>MEDICHEALTH <br />&
+              <span className="text-[#49AD09]">About </span>MEDIC HEALTH <br />&
               WELLNESS
             </h2>
           </div>
@@ -291,7 +299,6 @@ function AboutServices() {
                 alt="drug pic"
                 className="lg:w-[81px] lg:h-[84.62px]"
                 priority={true}
-
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em]  py-2">
@@ -415,7 +422,7 @@ function AboutServices() {
           <Image
             src={WeightLossPic}
             alt="wellness and medical Health"
-            className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
+            className="md:h-[600px] lg:w-[600px] h-[430px] object-contain rounded-xl"
             priority={true}
           />
         </div>
@@ -436,10 +443,13 @@ function AboutServices() {
           </div>
 
           <div>
-
-          <div className="flex flex-col py-6 gap-6">
-              <p className="text-[#545454] font-medium text-2xl font-Poppins">Semaglutide $399/month</p>
-              <p className="text-[#545454] font-medium text-2xl font-Poppins">Tirzepatide $499/month</p>
+            <div className="flex flex-col py-6 gap-6">
+              <p className="text-[#545454] font-medium text-2xl font-Poppins">
+                Semaglutide $399/month
+              </p>
+              <p className="text-[#545454] font-medium text-2xl font-Poppins">
+                Tirzepatide $499/month
+              </p>
             </div>
             {/* <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
               Medichealth Wellness provides Hormone replacement therapy for
@@ -507,10 +517,7 @@ function AboutServices() {
         </div>
       </div>
 
-      <div
-        id="fourth-section"
-        className="blueBg h-full w-full  px-4 lg:px-24  mx-0 my-10 flex flex-col items-center justify-center "
-      >
+      <div className="blueBg h-full w-full  px-4 lg:px-24  mx-0 my-10 flex flex-col items-center justify-center ">
         <div className="flex flex-col justify-center items-center pt-16">
           <h2 className="text-base font-IBMPlex text-[#FFFFFF] font-normal py-2">
             LOCATION
@@ -522,7 +529,7 @@ function AboutServices() {
             Our Telehealth services are available to client in the following
             state
             <br />
-            We are working to have our services available in all 50 states. 
+            We are working to have our services available in all 50 states.
           </p>
         </div>
 

@@ -3,6 +3,7 @@ import {FiMapPin, FiMail, FiPhone} from "react-icons/fi";
 import Logo from "../../public/logoImage.png";
 import Image from "next/image";
 import {FaFacebookF, FaTwitter, FaInstagram,FaLinkedinIn} from "react-icons/fa";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -16,18 +17,18 @@ function Footer() {
        Lorem ipsum dolor sit amet consectetur. Scelerisque vitae et vitae suspendisse vulputate vestibulum tortor nisl cursus. Egestas nulla in 
        </p>
        <div className="flex py-4">
-        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        <Link href={"https://www.facebook.com/medichealthwellness"} className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
         <FaFacebookF  className="inline-block text-[#FFFFFF] cursor-pointer" />
-        </div>
-        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        </Link>
+        <Link href={"https://www.instagram.com/medichealthwellness/"} className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
         <FaInstagram  className="inline-block text-[#FFFFFF] cursor-pointer"/>
-        </div>
-        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        </Link>
+        <Link href={"/"} className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
         <FaTwitter  className="inline-block text-[#FFFFFF] cursor-pointer" />
-        </div>
-        <div className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
+        </Link>
+        <Link  href={"/"} className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
         <FaLinkedinIn  className="inline-block text-[#FFFFFF] cursor-pointer" />
-        </div>
+        </Link>
        </div>
         </div>
         

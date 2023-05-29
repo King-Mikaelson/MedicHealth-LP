@@ -1,4 +1,4 @@
-import doctorImage from "../../public/hero1.png";
+import doctorImage from "../../public/bgPic.png";
 import Image from "next/image";
 import Link from "next/link";
 import { gsap } from "gsap";
@@ -99,7 +99,6 @@ medications are prescribed by licensed providers.
       </swiper-container> */}
 
       <main
-              id="first-section"
               className={`md:h-full md:py-24 lg:h-[100vh] h-[100vh] fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}
             >
               <div className="flex flex-col md:flex-row w-full justify-between items-center lg:gap-10 mt-16  md:mt-24  px-4  lg:px-24 mx-0  ">
@@ -133,7 +132,10 @@ medications are prescribed by licensed providers.
                 </div>
 
                 <div className="lg:w-2/4 order-1 md:order-2">
-                  <Image src={doctorImage} alt="wellness and medical Health" />
+                  <Image 
+                  src={doctorImage} alt="wellness and medical Health"   
+                   priority={true}
+/>
                 </div>
               </div>
       </main>

@@ -9,7 +9,6 @@ import React, { useRef, useState, useEffect } from "react";
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
-
   return (
     <div className="accordion-item flex flex-col py-2 rounded-[8px] border-[0px] border-solid ">
       <div
@@ -48,7 +47,7 @@ function TestimonialsFaq() {
     {
       title: "What is Semaglutide?",
       content: `Semaglutide is an FDA approved injectable
-          prescription medication for adults with a BMI &gt; 27 or higher.`,
+          prescription medication for adults with a BMI; 27 or higher.`,
     },
     {
       title: "What is Tirzepatide?",
@@ -104,23 +103,22 @@ function TestimonialsFaq() {
     },
   ];
 
-  const showImageInterval =() => {
-    if(showImage === "first"){
+  const showImageInterval = () => {
+    if (showImage === "first") {
       setShowImage("second");
-    }else if(showImage === "second"){
+    } else if (showImage === "second") {
       setShowImage("third");
-    }else if(showImage === "third"){
+    } else if (showImage === "third") {
       setShowImage("first");
     }
-  }
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
       showImageInterval();
-    }
-    , 5000);
+    }, 5000);
 
-    return () => clearInterval(interval)
+    return () => clearInterval(interval);
   }, [showImage]);
   return (
     <main className="lg:mt-32 mt-12  px-4  lg:px-24 mx-0  w-full flex flex-col justify-center">
@@ -139,119 +137,163 @@ function TestimonialsFaq() {
 
         <div className="flex flex-col lg:flex-row justify-between items-center lg:gap-10 gap-5">
           <div className="lg:w-1/4 flex lg:flex-col items-center">
-           { showImage !== "first" && showImage=== "second" ? <Image
-              src={testimonial1}
-              alt="client testimonial "
-              className="py-2"
-              onClick={() => {setShowImage(true); setShowImage1(false); setShowImage2(false)}}
-            />
-            : showImage !== "first" && showImage=== "third" ? <Image
-            src={testimonial2}
-            alt="client testimonial"
-            className={`mx-2 py-1 px-1  h-16 w-16`}
-            onClick={() => {setShowImage1(true); setShowImage(false); setShowImage2(false)}}/>
-            :  <Image
-          src={testimonial3}
-          alt="client testimonial"
-          className={`mx-2 py-1 px-1  h-16 w-16`}
-          onClick={() => {setShowImage1(true); setShowImage(false); setShowImage2(false)}}/>
-          }
+            {showImage !== "first" && showImage === "second" ? (
+              <Image
+                src={testimonial1}
+                alt="client testimonial "
+                className="py-2"
+                onClick={() => {
+                  setShowImage(true);
+                  setShowImage1(false);
+                  setShowImage2(false);
+                }}
+              />
+            ) : showImage !== "first" && showImage === "third" ? (
+              <Image
+                src={testimonial2}
+                alt="client testimonial"
+                className={`mx-2 py-1 px-1  h-16 w-16`}
+                onClick={() => {
+                  setShowImage1(true);
+                  setShowImage(false);
+                  setShowImage2(false);
+                }}
+              />
+            ) : (
+              <Image
+                src={testimonial3}
+                alt="client testimonial"
+                className={`mx-2 py-1 px-1  h-16 w-16`}
+                onClick={() => {
+                  setShowImage1(true);
+                  setShowImage(false);
+                  setShowImage2(false);
+                }}
+              />
+            )}
 
-            {showImage === "first" ?
-            <Image
-              src={testimonial1}
-              alt="client testimonial "
-              className="mx-2 py-1 px-1 border rounded-full bg-[#49AD09] h-32 w-32"
-              onClick={() => {setShowImage(true); setShowImage1(false); setShowImage2(false)}}
-            /> : showImage === "second" ? 
-            <Image
-            src={testimonial2}
-            alt="client testimonial"
-            className={`mx-2 py-1 px-1 border rounded-full bg-[#49AD09] h-30 w-30`}
-            onClick={() => {setShowImage1(true); setShowImage(false); setShowImage2(false)}}/> :
-            <Image
-              src={testimonial3}
-              alt="client testimonial"
-              className="mx-2 py-1 px-1 border rounded-full bg-[#49AD09] h-32 w-32"
-              onClick={() => {setShowImage2(true); setShowImage(false); setShowImage1(false)}}
-            />
-            }
+            {showImage === "first" ? (
+              <Image
+                src={testimonial1}
+                alt="client testimonial "
+                className="mx-2 py-1 px-1 border rounded-full bg-[#49AD09] h-32 w-32"
+                onClick={() => {
+                  setShowImage(true);
+                  setShowImage1(false);
+                  setShowImage2(false);
+                }}
+              />
+            ) : showImage === "second" ? (
+              <Image
+                src={testimonial2}
+                alt="client testimonial"
+                className={`mx-2 py-1 px-1 border rounded-full bg-[#49AD09] h-30 w-30`}
+                onClick={() => {
+                  setShowImage1(true);
+                  setShowImage(false);
+                  setShowImage2(false);
+                }}
+              />
+            ) : (
+              <Image
+                src={testimonial3}
+                alt="client testimonial"
+                className="mx-2 py-1 px-1 border rounded-full bg-[#49AD09] h-32 w-32"
+                onClick={() => {
+                  setShowImage2(true);
+                  setShowImage(false);
+                  setShowImage1(false);
+                }}
+              />
+            )}
 
-
-{ showImage !== "third" && showImage=== "first" ? 
-            <Image
-            src={testimonial2}
-            alt="client testimonial "
-            className="py-2 h-16 w-12"
-            onClick={() => {setShowImage(true); setShowImage1(false); setShowImage2(false)}}
-          />
-            : showImage !== "third" && showImage=== "second" ? <Image
-            src={testimonial3}
-            alt="client testimonial "
-            className="py-2"
-            onClick={() => {setShowImage(true); setShowImage1(false); setShowImage2(false)}}
-          />: <Image
-          src={testimonial1}
-          alt="client testimonial"
-          className={`mx-2 py-1 px-1  h-16 w-16`}
-          onClick={() => {setShowImage1(true); setShowImage(false); setShowImage2(false)}}/>
-          }
+            {showImage !== "third" && showImage === "first" ? (
+              <Image
+                src={testimonial2}
+                alt="client testimonial "
+                className="py-2 h-16 w-12"
+                onClick={() => {
+                  setShowImage(true);
+                  setShowImage1(false);
+                  setShowImage2(false);
+                }}
+              />
+            ) : showImage !== "third" && showImage === "second" ? (
+              <Image
+                src={testimonial3}
+                alt="client testimonial "
+                className="py-2"
+                onClick={() => {
+                  setShowImage(true);
+                  setShowImage1(false);
+                  setShowImage2(false);
+                }}
+              />
+            ) : (
+              <Image
+                src={testimonial1}
+                alt="client testimonial"
+                className={`mx-2 py-1 px-1  h-16 w-16`}
+                onClick={() => {
+                  setShowImage1(true);
+                  setShowImage(false);
+                  setShowImage2(false);
+                }}
+              />
+            )}
           </div>
 
           <div class="hidden lg:block flex-grow h-96 w-1 border-t-2 bg-[#49AD09]"></div>
 
           <div className="flex flex-col">
-  
-         <div className="lg:w-3/4 transition-opacity">
-            <Image src={Union} alt="client testimonial" className="py-6" />
-        { 
-        
-        showImage === "first" ? 
-        <>
-        <p className="xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base">
-              “I am so glad I found Medic Health &amp; Wellness! I have
-              struggled with my weight for many years, and I have tried
-              different things over the years. Started on Semaglutide several
-              months ago, and I have lost over 30lbs and kept the weight off. I
-              recommend Medic Health &amp; Wellness to all my family and friends
-              struggling with weight loss!”
-            </p>
-            <div className="py-6">
-              <p className="font-Poppins text-[#000000]  font-semibold text-xl py-1">
-                Elizabeth
-              </p>
-            </div> 
-            </>
-            : showImage === "second" ?
-              <>
-             <p className="xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base">
-            “Great caring people, they really listened and were very
-            helpful! I finally feel like I am on the right track to shed
-            this weight!
-          </p>
-          <div className="py-6">
-            <p className="font-Poppins text-[#000000]  font-semibold text-xl py-1">
-              Justina Bell
-            </p>
-          </div>
-          </> : 
-            <>
-            <p className="xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base">
-                This place is so Amazing! For many years, I was unable to lose
-                any weight. I started on this program 4 months ago and I have
-                already lost 20lbs. The people are super friendly and available
-                to answer questions. Service is timely and convenient!!!
-              </p>
-              <div className="py-6">
-                <p className="font-Poppins text-[#000000]  font-semibold text-xl py-1">
-                  Alex Cruz
-                </p>
-              </div>
-            </>
-          
-          }
-          </div>
-
+            <div className="lg:w-3/4 transition-opacity">
+              <Image src={Union} alt="client testimonial" className="py-6" />
+              {showImage === "first" ? (
+                <>
+                  <p className="xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base">
+                    “I am so glad I found Medic Health &amp; Wellness! I have
+                    struggled with my weight for many years, and I have tried
+                    different things over the years. Started on Semaglutide
+                    several months ago, and I have lost over 30lbs and kept the
+                    weight off. I recommend Medic Health &amp; Wellness to all
+                    my family and friends struggling with weight loss!”
+                  </p>
+                  <div className="py-6">
+                    <p className="font-Poppins text-[#000000]  font-semibold text-xl py-1">
+                      Elizabeth
+                    </p>
+                  </div>
+                </>
+              ) : showImage === "second" ? (
+                <>
+                  <p className="xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base">
+                    “Great caring people, they really listened and were very
+                    helpful! I finally feel like I am on the right track to shed
+                    this weight!
+                  </p>
+                  <div className="py-6">
+                    <p className="font-Poppins text-[#000000]  font-semibold text-xl py-1">
+                      Justina Bell
+                    </p>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <p className="xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base">
+                    This place is so Amazing! For many years, I was unable to
+                    lose any weight. I started on this program 4 months ago and
+                    I have already lost 20lbs. The people are super friendly and
+                    available to answer questions. Service is timely and
+                    convenient!!!
+                  </p>
+                  <div className="py-6">
+                    <p className="font-Poppins text-[#000000]  font-semibold text-xl py-1">
+                      Alex Cruz
+                    </p>
+                  </div>
+                </>
+              )}
+            </div>
 
             {/* <div className="lg:w-3/4 transition-opacity">
               <Image src={Union} alt="client testimonial" className="py-6" />
@@ -267,7 +309,7 @@ function TestimonialsFaq() {
               </div>
             </div> */}
 
-             {/* <div className="lg:w-3/4 transition-opacity">
+            {/* <div className="lg:w-3/4 transition-opacity">
             //   <Image src={Union} alt="client testimonial" className="py-6" />
             //   <p className="xl:w-[50ch] font-Poppins text-[#000000] lg:text-2xl text-base">
             //     This place is so Amazing! For many years, I was unable to lose
@@ -281,12 +323,14 @@ function TestimonialsFaq() {
             //     </p>
             //   </div>
             </div> */}
-
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col justify-center lg:pt-16">
+      <div
+        id="fourth-section"
+        className="flex flex-col justify-center lg:pt-16"
+      >
         <div className="flex flex-col justify-center items-center w-full">
           <div class="relative flex py-5 items-center justify-center lg:w-1/4 w-full my-0 mx-auto">
             <div class="flex-grow border-t-2 border-[#49AD09]"></div>

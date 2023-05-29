@@ -18,10 +18,10 @@ export const getStaticProps = async () => {
 function NavBar() {
 
     const navigation = [
-        { name: 'Healthcare',href:"#first-section", current: true },
+        { name: 'About Us',href:"#first-section", current: true },
         { name: 'Weight loss', href:"#second-section", current: false },
         { name: 'Pricing', href:"#third-section", current: false },
-        { name: 'About Us', href:"#fourth-section", current: false },
+        { name: 'FAQ', href:"#fourth-section", current: false },
       ]
       const[open, setOpen] = useState(false)
   return (
