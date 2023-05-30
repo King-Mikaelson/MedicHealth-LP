@@ -54,7 +54,7 @@ function NavBar() {
         <div
           className={
             open
-              ? "md:hidden z-10 md:flex md:items-center md:static md:w-auto   absolute top-0 right-0 text-black bg-[#FFFFFF] w-full h-[100vh] transition-all duration-500 ease-in"
+              ? "z-10 md:flex md:items-center md:static md:w-auto   absolute top-0 right-0 text-black bg-[#FFFFFF] w-full h-[100vh] transition-all duration-500 ease-in"
               : "hidden"
           }
         >

@@ -42,7 +42,7 @@ function AboutServices() {
 
         <div className="lg:w-2/4 self-start flex justify-center lg:items-start flex-col">
           <div className="relative">
-            <div class="hidden absolute top-8 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
+            <div className="hidden absolute top-8 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
             <h2 className="py-4 text-[#1C1C1C] lg:px-36  font-Poppins lg:font-bold font-medium lg:text-base text-2xl ">
               <span className="text-[#49AD09]">About </span>MEDIC HEALTH <br />&
               WELLNESS
@@ -64,7 +64,7 @@ function AboutServices() {
 
       <div className="flex flex-col items-center lg:py-16 pt-16 pb-0   px-4 lg:px-24 mx-0  ">
         <div className="relative flex flex-col justify-center">
-          <div class="hidden absolute top-4 left-6 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
+          <div className="hidden absolute top-4 left-6 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
           <h2 className="self-end text-[#49AD09] text-base font-IBMPlex font-bold py-2">
             Our Services
           </h2>

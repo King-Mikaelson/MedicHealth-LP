@@ -243,7 +243,7 @@ function TestimonialsFaq() {
             )}
           </div>
 
-          <div class="hidden lg:block flex-grow h-96 w-1 border-t-2 bg-[#49AD09]"></div>
+          <div className="hidden lg:block flex-grow h-96 w-1 border-t-2 bg-[#49AD09]"></div>
 
           <div className="flex flex-col">
             <div className="lg:w-3/4 transition-opacity">
@@ -332,12 +332,12 @@ function TestimonialsFaq() {
         className="flex flex-col justify-center lg:pt-16"
       >
         <div className="flex flex-col justify-center items-center w-full">
-          <div class="relative flex py-5 items-center justify-center lg:w-1/4 w-full my-0 mx-auto">
-            <div class="flex-grow border-t-2 border-[#49AD09]"></div>
-            <span class="flex-shrink mx-4 text-[#696969] font-Poppins text-base font-normal">
+          <div className="relative flex py-5 items-center justify-center lg:w-1/4 w-full my-0 mx-auto">
+            <div className="flex-grow border-t-2 border-[#49AD09]"></div>
+            <span className="flex-shrink mx-4 text-[#696969] font-Poppins text-base font-normal">
               FAQs
             </span>
-            <div class="flex-grow border-t-2 border-[#49AD09]"></div>
+            <div className="flex-grow border-t-2 border-[#49AD09]"></div>
           </div>
 
           <h3
