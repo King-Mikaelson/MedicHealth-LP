@@ -9,7 +9,7 @@ import PillPic from "../../public/PillPic.png";
 import InjectionPic from "../../public/InjectionPic.png";
 import TherapyPic from "../../public/womenGroup.jpg";
 import HeartBeatPic from "../../public/HeartBeatPic.png";
-import WeightLossPic from "../../public/whiteWomanWeightLoss.jpeg";
+import WeightLossPic from "../../public/stockImage.jpg";
 import PersonPic from "../../public/PersonPic.png";
 import Map from "../../public/Map.png";
 import { useState } from "react";
@@ -422,7 +422,7 @@ function AboutServices() {
           <Image
             src={WeightLossPic}
             alt="wellness and medical Health"
-            className="md:h-[600px] lg:w-[600px] h-[430px] object-contain rounded-xl"
+            className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
             priority={true}
           />
         </div>
