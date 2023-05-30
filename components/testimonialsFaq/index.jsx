@@ -351,8 +351,8 @@ function TestimonialsFaq() {
 
         <div className="flex flex-col lg:flex-row  justify-center gap-5 items-center w-full mx-auto my-0 md:py-16 py-8">
           <div className="accordion w-full flex flex-col self-start ">
-            {accordionData.map(({ title, content }) => (
-              <Accordion title={title} content={content} />
+            {accordionData.map(({ title, content }, index) => (
+              <Accordion key={index} title={title} content={content} />
             ))}
           </div>
 
