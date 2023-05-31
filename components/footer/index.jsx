@@ -10,8 +10,8 @@ function Footer() {
     <main className="mt-10 mb-auto text-[#FFFFFF] bg-[#202020] pt-10 lg:pt-20  lg:px-24 px-4 mx-0 w-full self-end">
     
 
-      <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-5 lg:gap-0">
-       <div className="self-start md:order-1 order-4">
+      <div className="flex flex-col lg:flex-row md:justify-between lg:items-center gap-5">
+       <div className="self-start lg:order-1 order-4">
        <Image src={Logo} alt="logo"/>
        <p className="xl:w-[50ch] py-4">
        At Medic Health & Wellness, our primary goal is helping you achieve lasting weight loss results and a healthier, happier life.       </p>
@@ -31,36 +31,36 @@ function Footer() {
        </div>
         </div>
         
-        <div className="text-[1.857rem] flex flex-col gap-5 font-Satoshi self-start md:order-2 order-1">
+        <div className="text-[1.857rem] flex flex-col gap-5 font-Satoshi self-start lg:order-2 order-1">
         <h3 className="text-[1.27rem] font-bold font-Poppins">Quick Links</h3>
-          <p className="text-lg font-light font-Poppins">Home</p>
-          <p className="text-lg font-light font-Poppins">Weight loss</p>
-          <p className="text-lg font-light font-Poppins">Hormonal</p>
-          <p className="text-lg font-light font-Poppins">Portal</p>
+          <Link href="#first-section" className="text-lg font-light font-Poppins">About Us</Link>
+          <Link href="#second-section" className="text-lg font-light font-Poppins">Weight loss</Link>
+          <Link href="#third-section" className="text-lg font-light font-Poppins">Pricing</Link>
+          <Link href="#fourth-section" className="text-lg font-light font-Poppins">FAQ</Link>
         </div>
 
-        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start md:order-2 order-2">
+        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start lg:order-2 order-2">
         <h3 className="text-[1.27rem] font-bold font-Poppins">Legal</h3>
           <p  className="text-lg font-light font-Poppins">Terms & Conditions</p>
           <p  className="text-lg font-light font-Poppins">Privacy Policy</p>
           <p  className="text-lg font-light font-Poppins">Cookies Policy</p>
         </div>
 
-        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start md:order-3 order-1">
+        <div className="text-[1.857rem] flex flex-col gap-5  font-Satoshi self-start lg:order-3 order-1">
         <h3 className="text-[1.27rem] font-bold font-Poppins">Contact Information</h3>
           <div className="flex items-center">
-            <AiOutlineMail  className="text-[#49AD09] mr-5" />
+            <AiOutlineMail size={25}  className="text-[#49AD09] mr-3" />
             <p  className="text-lg font-light font-Poppins">medichealthwellness@gmail.com</p>
 
          </div>
          <div className="flex items-center">
-            <FiPhone  className="text-[#49AD09] mr-5"  />
+            <FiPhone size={25}  className="text-[#49AD09] mr-3"  />
             <p className="font-Poppins font-light text-lg">+1 307-285-9298</p>
 
          </div>
          <div className="flex items-center ">
-         <FiMapPin className="text-[#49AD09] mr-5 self-start"  />
-        <p  className="font-Poppins font-light text-lg lg:w-[30ch]">1309 Coffeen Avenue Ste 1200, Sheridan, WY, United States, Wyoming</p>
+         <FiMapPin size={25} className="text-[#49AD09] mr-3 self-start"  />
+        <p  className="font-Poppins font-light text-lg lg:w-[30ch] self-start">1309 Coffeen Avenue Ste 1200, Sheridan, WY, United States, Wyoming</p>
          </div>
         </div>
         

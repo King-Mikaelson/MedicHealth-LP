@@ -35,8 +35,8 @@ function AboutServices() {
           <Image
             src={WellnessPic}
             alt="wellness and medical Health"
+            className="md:h-[600px] lg:w-[600px] h-[430px] object-cover md:object-contain lg:object-cover  rounded-xl"
             priority={true}
-            className="rounded-xl"
           />
         </div>
 
