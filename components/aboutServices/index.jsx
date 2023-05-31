@@ -405,7 +405,7 @@ function AboutServices() {
               </div>
             </div>
 
-            <Link href="/">
+            <Link href="https://ehr.charmtracker.com/publicCal.sas?method=getCal&digest=f8b9e1018e5d9f476ad71e51d09a1c8cf5723bb99d93966edf259d4546b220a7ef59d40e1bb127af6a5bb1a648a7e1b1d95fcbc3b76e32a2">
               <button
                 type="button"
                 className="bg-[#191BFB] py-3 lg:px-6 px-3 flex justify-center items-center rounded-[10px]"
@@ -494,7 +494,7 @@ function AboutServices() {
               </div>
             </div> */}
 
-            <Link href="/">
+            <Link href="https://ehr.charmtracker.com/publicCal.sas?method=getCal&digest=f8b9e1018e5d9f476ad71e51d09a1c8cf5723bb99d93966edf259d4546b220a7ef59d40e1bb127af6a5bb1a648a7e1b1d95fcbc3b76e32a2">
               <button
                 type="button"
                 className="bg-[#191BFB] py-3 lg:px-10 px-4 flex justify-center items-center rounded-[10px]"

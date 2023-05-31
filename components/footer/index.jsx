@@ -14,8 +14,7 @@ function Footer() {
        <div className="self-start md:order-1 order-4">
        <Image src={Logo} alt="logo"/>
        <p className="xl:w-[50ch] py-4">
-       Lorem ipsum dolor sit amet consectetur. Scelerisque vitae et vitae suspendisse vulputate vestibulum tortor nisl cursus. Egestas nulla in 
-       </p>
+       At Medic Health & Wellness, our primary goal is helping you achieve lasting weight loss results and a healthier, happier life.       </p>
        <div className="flex py-4">
         <Link href={"https://www.facebook.com/medichealthwellness"} className="bg-[#49AD09] py-1 px-2 rounded-full mr-4">
         <FaFacebookF  className="inline-block text-[#FFFFFF] cursor-pointer" />
@@ -51,17 +50,17 @@ function Footer() {
         <h3 className="text-[1.27rem] font-bold font-Poppins">Contact Information</h3>
           <div className="flex items-center">
             <AiOutlineMail  className="text-[#49AD09] mr-5" />
-            <p  className="text-lg font-light font-Poppins">Mdichealthr@gmail.com</p>
+            <p  className="text-lg font-light font-Poppins">medichealthwellness@gmail.com</p>
 
          </div>
          <div className="flex items-center">
             <FiPhone  className="text-[#49AD09] mr-5"  />
-            <p className="font-Poppins font-light text-lg">+2345545677080</p>
+            <p className="font-Poppins font-light text-lg">+1 307-285-9298</p>
 
          </div>
-         <div className="flex items-center">
-         <FiMapPin className="text-[#49AD09] mr-5"  />
-        <p  className="font-Poppins font-light text-lg">Lorem Ipsum Dummy text</p>
+         <div className="flex items-center ">
+         <FiMapPin className="text-[#49AD09] mr-5 self-start"  />
+        <p  className="font-Poppins font-light text-lg lg:w-[30ch]">1309 Coffeen Avenue Ste 1200, Sheridan, WY, United States, Wyoming</p>
          </div>
         </div>
         

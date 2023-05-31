@@ -84,6 +84,7 @@ function NavBar() {
             ))}
           </ul>
 
+          <Link href=" https://phr.charmtracker.com/login.sas?FACILITY_ID=d1c1a0dc62345265137dd03ef4d46349f8b9e1018e5d9f4798ee2e5ce9d5cc8ac81b440bc8a53a00">
           <button
             type="button"
             className="bg-[#191BFB] py-3 px-5 flex justify-center items-center rounded-[100px] mt-auto absolute bottom-24 right-6"
@@ -95,9 +96,10 @@ function NavBar() {
               Patient Portal
             </p>
           </button>
+          </Link>
         </div>
         <div className="flex items-center ">
-          <Link href="/">
+          <Link href=" https://phr.charmtracker.com/login.sas?FACILITY_ID=d1c1a0dc62345265137dd03ef4d46349f8b9e1018e5d9f4798ee2e5ce9d5cc8ac81b440bc8a53a00">
             <button
               type="button"
               className="bg-[#191BFB] py-3 px-5 justify-center items-center rounded-[100px] hidden md:flex"

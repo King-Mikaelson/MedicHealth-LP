@@ -118,7 +118,7 @@ medications are prescribed by licensed providers.
 
                       <p>Weight Loss, GLP-1, Health &amp; Wellness, Nutrition, Exercise.</p>
 
-                    <Link href="/">
+                      <Link href="https://ehr.charmtracker.com/publicCal.sas?method=getCal&digest=f8b9e1018e5d9f476ad71e51d09a1c8cf5723bb99d93966edf259d4546b220a7ef59d40e1bb127af6a5bb1a648a7e1b1d95fcbc3b76e32a2">
                       <button
                         type="button"
                         className="bg-[#191BFB]  py-2 lg:py-3 my-4 lg:my-14 px-3  md:px-6  flex justify-center items-center rounded-lg shadow-[2px,4px,4px,rgba(0,0,0,0.25)]"
