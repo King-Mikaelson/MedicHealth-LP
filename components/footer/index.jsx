@@ -58,9 +58,9 @@ function Footer() {
             <p className="font-Poppins font-light text-lg">+1 307-285-9298</p>
 
          </div>
-         <div className="flex items-center ">
+         <div className="flex items-center">
          <FiMapPin size={25} className="text-[#49AD09] mr-3 self-start"  />
-        <p  className="font-Poppins font-light text-lg lg:w-[30ch] self-start">1309 Coffeen Avenue Ste 1200, Sheridan, WY, United States, Wyoming</p>
+        <p  className="font-Poppins font-light text-lg lg:w-[30ch] w-[20ch]  md:self-start">1309 Coffeen Avenue Ste 1200, Sheridan, WY, United States, Wyoming</p>
          </div>
         </div>
         

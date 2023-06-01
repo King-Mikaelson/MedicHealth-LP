@@ -43,7 +43,7 @@ function AboutServices() {
         <div className="lg:w-2/4 self-start flex justify-center lg:items-start flex-col">
           <div className="relative">
             <div className="hidden absolute top-8 lg:block flex-grow h-1 w-32 border-t-2 bg-[#49AD09]"></div>
-            <h2 className="py-4 text-[#1C1C1C] lg:px-36  font-Poppins lg:font-bold font-medium lg:text-base text-2xl ">
+            <h2 className="py-1 text-[#1C1C1C] lg:px-36  font-Poppins lg:font-bold font-medium lg:text-base text-2xl ">
               <span className="text-[#49AD09]">About </span>MEDIC HEALTH <br />&
               WELLNESS
             </h2>
@@ -537,7 +537,7 @@ function AboutServices() {
           <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col text-[#FFFFFF] font-Poppins font-bold lg:text-[2rem] text-[1.25rem] mx-auto my-auto">
             <div className="flex flex-col w-full ">
               <div className="grid relative lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]   justify-center items-center">
-                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2"></div>
+                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2 "></div>
                 <p>Arizona</p>
                 <p>Colorado </p>
               </div>
@@ -560,26 +560,26 @@ function AboutServices() {
                 <p> Nebraska</p>
               </div>
 
-              <div className="grid lg:grid-cols-[170px,1fr] grid-cols-2  justify-center    items-center relative">
-                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2"></div>
+              <div className="grid lg:grid-cols-[170px,1fr]  grid-cols-[1fr,1fr]   justify-center    items-center relative">
+                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2 "></div>
                 <p> Oregon </p>
-                <p> New Mexico</p>
+                <p  className="whitespace-nowrap"> New Mexico</p>
               </div>
 
-              <div className="grid lg:grid-cols-[170px,1fr] grid-cols-2  justify-center    items-center relative">
-                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2"></div>
+              <div className="grid lg:grid-cols-[170px,1fr]  grid-cols-[1fr,1fr]  justify-center    items-center relative">
+                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2 "></div>
                 <p> Alaska</p>
-                <p> South Dakota </p>
+                <p  className="whitespace-nowrap"> South Dakota </p>
               </div>
 
               <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]    justify-center   items-center relative">
-                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2"></div>
+                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2 "></div>
                 <p>Utah</p>
-                <p> North Dokota</p>
+                <p className="whitespace-nowrap"> North Dokota</p>
               </div>
 
               <div className="grid lg:grid-cols-[170px,1fr] grid-cols-[1fr,1fr]  justify-center   items-center relative">
-                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2"></div>
+                <div className="absolute left-[-2rem] top-4 bg-[#FFFFFF] lg:h-3 h-2 rounded-full lg:w-3 w-2 whitespace-nowrap"></div>
                 <p>Wyoming</p>
                 <p>Washington</p>
               </div>
