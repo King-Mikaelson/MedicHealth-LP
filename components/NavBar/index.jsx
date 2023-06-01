@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/logoImage.png";
+import Logo from "../../public/logo5.png";
 
 function NavBar() {
   const navigation = [
@@ -30,8 +30,7 @@ function NavBar() {
           <Image
             src={Logo}
             alt="logo"
-            className="
-    "
+            className=" w-[7rem] h-[100%] object-contain"
           />
         </div>
         <ul className="hidden md:flex md:items-center md:justify-center md:static md:w-auto md:bg-white md:text-black  absolute top-0 right-0 text-white bg-black w-full">
@@ -59,7 +58,8 @@ function NavBar() {
           }
         >
           <div className="cursor-pointer flex justify-between px-2 pt-5">
-            <Image src={Logo} alt="logo" />
+            <Image src={Logo} alt="logo"             className=" w-[7rem] h-[100%] object-contain"
+ />
             <XMarkIcon
               onClick={() => {
                 setOpen((prevValue) => !prevValue);

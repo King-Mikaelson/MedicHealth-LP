@@ -1,6 +1,6 @@
 import {AiOutlineMail} from "react-icons/ai";
 import {FiMapPin, FiMail, FiPhone} from "react-icons/fi";
-import Logo from "../../public/logoImage.png";
+import Logo from "../../public/logo5.png";
 import Image from "next/image";
 import {FaFacebookF, FaTwitter, FaInstagram,FaLinkedinIn} from "react-icons/fa";
 import Link from "next/link";
@@ -12,7 +12,11 @@ function Footer() {
 
       <div className="flex flex-col lg:flex-row md:justify-between lg:items-center gap-5">
        <div className="self-start lg:order-1 order-4">
-       <Image src={Logo} alt="logo"/>
+       <Image
+            src={Logo}
+            alt="logo"
+            className=" w-[7rem] h-[100%] object-contain"
+          />
        <p className="xl:w-[50ch] py-4">
        At Medic Health & Wellness, our primary goal is helping you achieve lasting weight loss results and a healthier, happier life.       </p>
        <div className="flex py-4">
@@ -58,10 +62,10 @@ function Footer() {
             <p className="font-Poppins font-light text-lg">+1 307-285-9298</p>
 
          </div>
-         <div className="flex items-center">
+         {/* <div className="flex items-center">
          <FiMapPin size={25} className="text-[#49AD09] mr-3 self-start"  />
         <p  className="font-Poppins font-light text-lg lg:w-[30ch] w-[20ch]  md:self-start">1309 Coffeen Avenue Ste 1200, Sheridan, WY, United States, Wyoming</p>
-         </div>
+         </div> */}
         </div>
         
       </div>
