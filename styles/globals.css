@@ -81,3 +81,10 @@ swiper-slide {
   background-position: center;
   background-size: cover;
 }
+
+@media only screen and (max-width: 375px) {
+  .hero {
+    height: 100%;
+    margin-top: 2rem;
+  }
+}

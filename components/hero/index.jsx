@@ -99,7 +99,7 @@ medications are prescribed by licensed providers.
       </swiper-container> */}
 
       <main
-              className={`md:h-full md:py-24 lg:h-[100vh] h-[100vh] fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}
+              className={`hero md:h-full md:py-24 lg:h-[100vh] h-[100vh] fade-in-image w-full flex flex-col justify-center bg-[rgba(25,27,251,0.03)]`}
             >
               <div className="flex flex-col md:flex-row w-full justify-between items-center lg:gap-10 mt-16  md:mt-24  px-4  lg:px-24 mx-0  ">
                 <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col order-2 md:order-1">
