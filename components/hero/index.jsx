@@ -1,4 +1,4 @@
-import doctorImage from "../../public/bgPic.png";
+import doctorImage from "../../public/finalHeader.png";
 import Image from "next/image";
 import Link from "next/link";
 import { gsap } from "gsap";
