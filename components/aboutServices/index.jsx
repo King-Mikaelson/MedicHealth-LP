@@ -75,7 +75,7 @@ function AboutServices() {
 
         <div className="flex flex-col md:flex-row w-full justify-between items-center pt-16 pb-32 gap-6">
           <div className="flex flex-col justify-center items-center">
-            <Image src={drugPic} className="lg:pb-12 pb-6" />
+            <Image src={drugPic} className="lg:pb-12 pb-6"alt="healthy weight loss drugs"/>
 
             <div className="flex flex-col justify-center items-center ">
               <h4 className="lg:text-[1.75em] text-[1.25rem] font-Poppins font-medium text-[#213D39] text-center">
@@ -253,7 +253,7 @@ function AboutServices() {
 
         <div className="flex flex-col lg:flex-row w-full justify-between items-center lg:gap-32 gap-6">
           <div className="lg:w-2/4">
-            <Image src={HowWeWork} alt="How we Work" />
+            <Image src={HowWeWork} alt="medication to help loss weight" />
           </div>
 
           <div className="lg:w-2/4 self-start flex justify-center items-center lg:items-start flex-col">
@@ -261,7 +261,7 @@ function AboutServices() {
               <Image
                 src={PersonPic}
                 className="md:w-[81px] md:h-[84.62px]"
-                alt="consultation"
+                alt="loss weight medication"
               />
               <div className="px-6">
                 <h4 className="text-[#1C1C1C] font-IBMPlex font-normal lg:text-[2rem] text-[1.25rem] leading-[1.375em] py-2">
@@ -278,7 +278,7 @@ function AboutServices() {
             <div className="flex items-center py-4 lg:ml-[-10rem]">
               <Image
                 src={InjectionPic}
-                alt="lab work"
+                alt="weight medications"
                 className="md:w-[81px] md:h-[84.62px]"
               />
               <div className="px-6">
@@ -296,7 +296,7 @@ function AboutServices() {
             <div className="flex items-center py-4">
               <Image
                 src={PillPic}
-                alt="drug pic"
+                alt="weight medications"
                 className="lg:w-[81px] lg:h-[84.62px]"
                 priority={true}
               />
@@ -315,7 +315,7 @@ function AboutServices() {
             <div className="flex items-center py-4  lg:ml-[-10rem]">
               <Image
                 src={HeartBeatPic}
-                alt="heart beat pic"
+                alt="weight medications"
                 className="md:w-[81px] md:h-[84.62px]"
               />
               <div className="px-6">
@@ -421,7 +421,7 @@ function AboutServices() {
         <div className="lg:w-2/4 md:w-3/4 lg:self-end order-1 lg:order-2">
           <Image
             src={WeightLossPic}
-            alt="wellness and medical Health"
+            alt="drugs that help with weight loss"
             className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
             priority={true}
           />
@@ -510,7 +510,7 @@ function AboutServices() {
         <div className="lg:w-2/4 md:w-3/4 lg:self-end order-1 lg:order-2">
           <Image
             src={TherapyPic}
-            alt="wellness and medical Health"
+            alt="weight loss drug semaglutide"
             className="md:h-[600px] lg:w-[600px] h-[430px] object-cover rounded-xl"
             loading="lazy"
           />

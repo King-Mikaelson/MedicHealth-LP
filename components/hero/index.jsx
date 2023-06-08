@@ -133,7 +133,7 @@ medications are prescribed by licensed providers.
 
                 <div className="lg:w-2/4 order-1 md:order-2">
                   <Image 
-                  src={doctorImage} alt="wellness and medical Health"   
+                  src={doctorImage} alt="telehealth weight loss"   
                    priority={true}
 />
                 </div>

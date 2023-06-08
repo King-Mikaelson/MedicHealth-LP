@@ -54,7 +54,7 @@ function Footer() {
         <h3 className="text-[1.27rem] font-bold font-Poppins">Contact Information</h3>
           <div className="flex items-center">
             <AiOutlineMail size={25}  className="text-[#49AD09] mr-3" />
-            <p  className="text-lg font-light font-Poppins">medichealthwellness@gmail.com</p>
+            <p  className="text-lg font-light font-Poppins">hello@medichealthwellness.com</p>
 
          </div>
          <div className="flex items-center">
