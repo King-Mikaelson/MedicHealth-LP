@@ -14,7 +14,7 @@ function NavBar() {
   const navigation = [
     { name: "About Us", href: "#first-section", current: true },
     { name: "Weight loss", href: "#second-section", current: false },
-    { name: "Pricing", href: "#third-section", current: false },
+    // { name: "Pricing", href: "#third-section", current: false },
     { name: "FAQ", href: "#fourth-section", current: false },
   ];
   const [open, setOpen] = useState(false);

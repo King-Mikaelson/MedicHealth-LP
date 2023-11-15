@@ -39,7 +39,7 @@ function Footer() {
         <h3 className="text-[1.27rem] font-bold font-Poppins">Quick Links</h3>
           <Link href="#first-section" className="text-lg font-light font-Poppins">About Us</Link>
           <Link href="#second-section" className="text-lg font-light font-Poppins">Weight loss</Link>
-          <Link href="#third-section" className="text-lg font-light font-Poppins">Pricing</Link>
+          {/* <Link href="#third-section" className="text-lg font-light font-Poppins">Pricing</Link> */}
           <Link href="#fourth-section" className="text-lg font-light font-Poppins">FAQ</Link>
         </div>
 

@@ -428,15 +428,13 @@ function AboutServices() {
         </div>
       </div>
 
-      <div
+      {/* <div
         id="third-section"
         className="flex flex-col lg:flex-row w-full justify-between items-center gap-10 pt-20 lg:pt-36  px-4 lg:px-24 mx-0  "
       >
         <div className="lg:w-2/4 self-start flex  lg:items-start flex-col order-2 lg:order-1">
           <div className="">
-            {/* <h2 className="text-[#49AD09] font-Manrope text-sm font-bold lg:py-2">
-              Appointment
-            </h2> */}
+
             <h3 className="text-[#000000] font-IBMPlex lg:text-5xl text-2xl font-medium lg:py-1">
               Pricing
             </h3>
@@ -451,49 +449,7 @@ function AboutServices() {
                 Tirzepatide $499/month
               </p>
             </div>
-            {/* <p className="text-[#545454] font-Poppins font-normal text-base pt-2">
-              Medichealth Wellness provides Hormone replacement therapy for
-              women who are dealing with hormone drops or other hormonal
-              imbalances.
-            </p> */}
-
-            {/* <div className="flex flex-col py-6">
-              <div className="flex  items-center py-2">
-                <AiFillCheckCircle className="text-[#191BFB] text-2xl mr-3" />
-                <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Hot Flash
-                </p>
-              </div>
-
-              <div className="flex  items-center py-2">
-                <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
-                <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Mood Swings
-                </p>
-              </div>
-
-              <div className="flex  items-center py-2">
-                <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
-                <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Weight Imbalance
-                </p>
-              </div>
-
-              <div className="flex  items-center py-2">
-                <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
-                <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Low Libido
-                </p>
-              </div>
-
-              <div className="flex  items-center py-2">
-                <AiFillCheckCircle className="text-[#191BFB] text-2xl  mr-3" />
-                <p className="text-[#121212] font-medium text-base font-Poppins">
-                  Brain Fog
-                </p>
-              </div>
-            </div> */}
-
+           
             <Link href="https://ehr.charmtracker.com/publicCal.sas?method=getCal&digest=f8b9e1018e5d9f476ad71e51d09a1c8cf5723bb99d93966edf259d4546b220a7ef59d40e1bb127af6a5bb1a648a7e1b1d95fcbc3b76e32a2">
               <button
                 type="button"
@@ -515,7 +471,7 @@ function AboutServices() {
             loading="lazy"
           />
         </div>
-      </div>
+      </div> */}
 
       <div className="blueBg h-full w-full  px-4 lg:px-24  mx-0 my-10 flex flex-col items-center justify-center ">
         <div className="flex flex-col justify-center items-center pt-16">
